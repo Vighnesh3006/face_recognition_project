@@ -1,0 +1,1690 @@
+2025-11-25 17:34:44 [Vighnesh Ghorpade] [USER_REGISTER] New user registered
+2025-11-25 17:35:33 [SYSTEM] [CONFIG] Gesture mappings updated
+2025-11-25 17:35:46 [Vighnesh Ghorpade] [AUTH_SUCCESS] User authenticated successfully
+2025-11-25 17:35:52 [Vighnesh Ghorpade] [SESSION_START] Gesture control session started
+2025-11-25 17:35:55 [Vighnesh Ghorpade] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2025-11-25 17:35:57 [Vighnesh Ghorpade] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2025-11-25 17:36:00 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:01 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:03 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:36:06 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:36:08 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:36:09 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:36:11 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:36:13 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:36:14 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:36:16 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:36:17 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:36:19 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:36:20 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:36:22 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:36:25 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:27 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:29 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:31 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:32 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:34 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:36 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:41 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:42 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:44 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:46 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:47 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:36:49 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:37:05 [Vighnesh Ghorpade] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2025-11-25 17:37:07 [Vighnesh Ghorpade] [GESTURE] Gesture 'three_fingers' executed action 'task_view'
+2025-11-25 17:37:10 [Vighnesh Ghorpade] [GESTURE] Gesture 'three_fingers' executed action 'task_view'
+2025-11-25 17:37:13 [Vighnesh Ghorpade] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2025-11-25 17:37:24 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:37:26 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:37:29 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:37:30 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:37:32 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:37:35 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:37:37 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:37:39 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:37:40 [Vighnesh Ghorpade] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2025-11-25 17:37:43 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:37:44 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:37:46 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:37:51 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:37:53 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:37:54 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:37:56 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:38:01 [Vighnesh Ghorpade] [SESSION_END] Session ended: Normal exit
+2025-11-25 17:46:18 [Vighnesh Ghorpade] [AUTH_SUCCESS] User authenticated successfully
+2025-11-25 17:46:24 [Vighnesh Ghorpade] [SESSION_START] Gesture control session started
+2025-11-25 17:46:58 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:00 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:21 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:28 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:30 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:32 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:34 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_left' executed action 'prev_track'
+2025-11-25 17:47:36 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:39 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:41 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_left' executed action 'prev_track'
+2025-11-25 17:47:48 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:50 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:51 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2025-11-25 17:47:53 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:57 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:47:59 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:48:02 [Vighnesh Ghorpade] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2025-11-25 17:48:05 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:48:07 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:48:09 [Vighnesh Ghorpade] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2025-11-25 17:48:11 [Vighnesh Ghorpade] [GESTURE] Gesture 'palm_right' executed action 'next_track'
+2025-11-25 17:49:49 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:52:53 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2025-11-25 17:52:54 [Vighnesh Ghorpade] [SESSION_END] Session ended: Normal exit
+2025-11-25 17:55:17 [Vighnesh Ghorpade] [AUTH_SUCCESS] User authenticated successfully
+2025-11-25 17:55:29 [Vighnesh Ghorpade] [SESSION_START] Gesture control session started
+2025-11-25 17:55:30 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:57:36 [Vighnesh Ghorpade] [AUTH_SUCCESS] User authenticated successfully
+2025-11-25 17:57:44 [Vighnesh Ghorpade] [SESSION_START] Gesture control session started
+2025-11-25 17:57:53 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2025-11-25 17:57:53 [Vighnesh Ghorpade] [SESSION_END] Session ended: Normal exit
+2025-11-25 17:58:01 [Vighnesh Ghorpade] [SESSION_START] Gesture control session started
+2025-11-25 17:58:13 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:58:15 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:58:17 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:58:19 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:58:21 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:58:23 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2025-11-25 17:58:25 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:58:26 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:58:28 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2025-11-25 17:59:04 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2025-11-25 17:59:04 [Vighnesh Ghorpade] [SESSION_END] Session ended: Normal exit
+2025-11-25 17:59:15 [Vighnesh Ghorpade] [SESSION_START] Gesture control session started
+2025-11-25 17:59:15 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2025-11-25 17:59:16 [Vighnesh Ghorpade] [SESSION_END] Session ended: Normal exit
+2025-11-25 17:59:31 [Vighnesh Ghorpade] [SESSION_START] Gesture control session started
+2025-11-25 17:59:42 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2025-11-25 17:59:42 [Vighnesh Ghorpade] [SESSION_END] Session ended: Normal exit
+2026-03-18 11:09:21 [vighnesh] [USER_REGISTER] Registered with 3 encoding(s)
+2026-03-18 11:15:25 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 11:15:36 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 11:21:09 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 11:21:20 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 11:21:25 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-03-18 11:21:27 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-03-18 11:21:28 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-03-18 11:21:30 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-03-18 11:21:39 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 11:21:40 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 11:21:42 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 11:21:46 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:00 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-03-18 11:22:06 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 11:22:13 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 11:22:18 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:20 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:22 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:24 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:25 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:27 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:29 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:22:31 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:22:32 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:22:34 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:22:36 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:37 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:39 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:41 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:42 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:44 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:22:49 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 11:22:57 [vighnesh] [GESTURE] Gesture 'one_finger' executed action 'volumeup'
+2026-03-18 11:22:58 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 11:23:00 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 11:23:02 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:23:04 [vighnesh] [GESTURE] Gesture 'one_finger' executed action 'volumeup'
+2026-03-18 11:23:15 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:23:17 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:23:18 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:23:20 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:23:24 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:23:26 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:23:27 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:26:04 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 11:26:14 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 11:26:14 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 11:39:25 [Vighnesh Ghorpade] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 11:39:38 [Vighnesh Ghorpade] [SESSION_START] Gesture control session started
+2026-03-18 11:39:39 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:39:52 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:39:56 [Vighnesh Ghorpade] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-03-18 11:39:59 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:40:05 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:40:11 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:40:15 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:40:18 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 11:40:24 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:40:27 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 11:40:30 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 11:40:34 [Vighnesh Ghorpade] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 11:42:25 [Vighnesh Ghorpade] [GESTURE] Gesture 'one_finger' executed action 'volumeup'
+2026-03-18 11:42:55 [Vighnesh Ghorpade] [GESTURE] Gesture 'one_finger' executed action 'volumeup'
+2026-03-18 11:42:58 [Vighnesh Ghorpade] [GESTURE] Gesture 'one_finger' executed action 'volumeup'
+2026-03-18 11:43:15 [Vighnesh Ghorpade] [GESTURE] Gesture 'two_fingers' executed action 'volumedown'
+2026-03-18 11:43:17 [Vighnesh Ghorpade] [GESTURE] Gesture 'two_fingers' executed action 'volumedown'
+2026-03-18 11:44:06 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:44:38 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:44:51 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:45:03 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:45:05 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 11:45:13 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:45:15 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 11:45:21 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: vighnesh
+2026-03-18 11:45:26 [Vighnesh Ghorpade] [SESSION_END] Session ended: Normal exit
+2026-03-18 12:04:18 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 12:04:46 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 12:05:14 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 12:05:15 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 12:05:17 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 12:12:22 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 12:12:38 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 12:13:12 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 12:13:24 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 12:13:33 [vighnesh] [GESTURE] Gesture 'one_finger' executed action 'volumeup'
+2026-03-18 12:13:35 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 12:13:35 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 12:13:38 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 12:13:38 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 12:13:39 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 12:18:19 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 12:18:26 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 12:18:38 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 12:18:42 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 12:18:45 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 12:18:46 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 12:32:38 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 12:32:44 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 12:33:17 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 12:33:42 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Vighnesh Ghorpade
+2026-03-18 12:33:43 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:15:26 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:15:35 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 14:15:46 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 14:15:46 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:17:24 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:17:46 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 14:17:53 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-03-18 14:17:56 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 14:18:03 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 14:18:09 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-03-18 14:18:13 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-03-18 14:18:19 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 14:18:22 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 14:18:23 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 14:18:24 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:39:50 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:39:58 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 14:40:02 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 14:40:02 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:41:00 [Vighnesh Ghorpade] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:41:08 [Vighnesh Ghorpade] [SESSION_START] Gesture control session started
+2026-03-18 14:41:10 [Vighnesh Ghorpade] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 14:41:17 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: vighnesh
+2026-03-18 14:41:17 [Vighnesh Ghorpade] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:41:40 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:42:10 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 14:42:10 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:42:50 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:42:58 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 14:42:59 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Vighnesh Ghorpade
+2026-03-18 14:42:59 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:44:48 [Atharv] [USER_REGISTER] Registered with 5 encoding(s)
+2026-03-18 14:45:04 [Atharv] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:45:11 [Atharv] [SESSION_START] Gesture control session started
+2026-03-18 14:45:12 [Atharv] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:45:22 [Atharv] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:45:37 [Atharv] [SESSION_START] Gesture control session started
+2026-03-18 14:45:42 [Atharv] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 14:45:44 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 14:45:53 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 14:45:56 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 14:45:58 [Atharv] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 14:46:16 [Atharv] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-03-18 14:46:19 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 14:46:21 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 14:46:25 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 14:46:28 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 14:46:30 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 14:46:31 [Atharv] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:49:31 [Aryan] [USER_REGISTER] Registered with 6 encoding(s)
+2026-03-18 14:49:42 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:49:50 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 14:49:51 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 14:50:27 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 14:50:35 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 14:50:35 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 16:27:01 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 16:27:09 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 16:27:16 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 16:27:17 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 16:50:49 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 16:51:19 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 16:51:50 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 16:52:15 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 16:55:15 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 16:55:31 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 16:55:38 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 16:55:38 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 16:57:14 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 16:57:38 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 16:57:44 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 16:57:45 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 16:58:29 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 17:03:34 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 17:03:40 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 17:03:44 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-03-18 17:03:46 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 17:03:46 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 17:04:17 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 17:04:24 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 17:04:24 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures reached (5)
+2026-03-18 17:04:25 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-03-18 17:23:25 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-03-18 17:23:26 [vighnesh] [SESSION_START] Gesture control session started
+2026-03-18 17:23:35 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-03-18 17:23:41 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-03-18 17:23:45 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 17:24:02 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 17:24:08 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 17:24:13 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 17:24:15 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 17:24:17 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-03-18 17:24:20 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 17:24:22 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-03-18 17:24:28 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-03-18 17:24:39 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-03-18 17:24:41 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-03-18 17:25:01 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-03-18 17:25:05 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-03-18 17:25:08 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-03-18 17:25:08 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 12:39:20 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 12:39:20 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 12:39:35 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 12:39:49 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 12:59:18 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 12:59:19 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 12:59:34 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 12:59:34 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 13:00:05 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 13:00:05 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 13:00:09 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:00:15 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:00:30 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:00:32 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:00:42 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:00:50 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:00:54 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:01:02 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:01:27 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:01:29 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:01:37 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:01:41 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:02:09 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 13:02:12 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 13:03:49 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:03:57 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:04:01 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:04:03 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-04-03 13:04:07 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-04-03 13:04:23 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:04:26 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 13:04:26 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 13:25:54 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 13:25:55 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 13:26:01 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 13:26:07 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 13:30:28 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:30:37 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-04-03 13:30:40 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:30:44 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-04-03 13:30:46 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:30:48 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:30:55 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:32:34 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:32:42 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:33:02 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:33:06 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:35:05 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 13:35:05 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 13:37:30 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 13:37:31 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 13:37:58 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:38:04 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:38:27 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:38:43 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:38:48 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:39:14 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:39:16 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:39:18 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 13:39:18 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 13:39:52 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 13:39:53 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 13:40:32 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 13:40:40 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 13:40:42 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 13:40:45 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'task_view'
+2026-04-03 13:40:52 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 13:40:56 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 13:40:59 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 13:41:04 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 13:41:08 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 13:41:15 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:41:22 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 13:41:34 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-04-03 13:41:46 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-04-03 13:42:02 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 13:42:03 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 13:48:31 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 13:48:33 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 13:49:13 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-04-03 13:49:16 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'mute'
+2026-04-03 13:51:09 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 13:51:10 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 13:52:30 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 13:52:31 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 13:52:38 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'volumedown'
+2026-04-03 13:52:45 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'volumedown'
+2026-04-03 13:52:50 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:52:53 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:52:58 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:53:03 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 13:53:10 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:53:13 [vighnesh] [GESTURE] Gesture 'two_fingers' executed action 'volumedown'
+2026-04-03 13:53:15 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:53:23 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:53:26 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:53:30 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:53:32 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:53:35 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:53:38 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:53:41 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-04-03 13:53:44 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:53:47 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:53:51 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-04-03 13:53:57 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 13:54:00 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'volumedown'
+2026-04-03 13:54:04 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'volumedown'
+2026-04-03 13:54:09 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 13:54:11 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 13:54:16 [vighnesh] [GESTURE] Gesture 'two_fingers' executed action 'volumedown'
+2026-04-03 13:54:20 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:54:24 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:54:26 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:54:32 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 13:54:38 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 13:54:42 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-04-03 13:54:45 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-04-03 13:55:03 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 14:40:20 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 14:40:21 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 14:40:52 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:40:59 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:41:12 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:41:15 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 14:41:20 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-04-03 14:41:22 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:41:26 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:41:28 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:41:32 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:41:42 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:41:46 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:41:50 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:41:56 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:42:00 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:42:02 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:42:13 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:42:31 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 14:42:31 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 14:48:11 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 14:48:12 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 14:48:24 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:48:28 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:48:32 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:48:37 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:48:41 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:48:46 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:48:49 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:48:52 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:48:57 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:49:02 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:49:07 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:49:15 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:49:18 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:49:25 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:49:28 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:49:34 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:49:51 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:49:58 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-04-03 14:50:28 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:50:31 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:50:33 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:50:36 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 14:50:40 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 14:51:17 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'volumedown'
+2026-04-03 14:51:22 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'volumedown'
+2026-04-03 14:51:30 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:51:34 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:51:37 [vighnesh] [GESTURE] Gesture 'one_finger' executed action 'volumeup'
+2026-04-03 14:51:43 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:51:52 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:51:56 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:52:01 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 14:52:04 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 14:52:08 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 14:52:12 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 14:52:15 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 14:52:18 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 14:53:08 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-04-03 14:53:11 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-04-03 14:53:20 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:53:23 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:53:26 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-04-03 14:53:30 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 14:54:11 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 14:54:11 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 15:36:31 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 15:36:32 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 15:36:35 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 15:36:39 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 15:36:44 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 15:36:51 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 15:36:52 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 15:36:52 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 15:37:25 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 15:37:26 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 15:37:28 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 15:37:30 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 15:37:33 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 15:37:45 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 15:37:48 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 15:48:31 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 15:48:32 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 15:48:44 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 15:48:48 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 15:48:52 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 15:48:56 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 15:49:00 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 15:50:03 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 15:55:10 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 15:55:11 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 15:55:31 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-04-03 15:55:32 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-04-03 15:55:58 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-04-03 15:55:59 [vighnesh] [SESSION_START] Gesture control session started
+2026-04-03 15:56:09 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 15:56:17 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 15:56:24 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 15:56:26 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 15:56:29 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-04-03 15:56:35 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 15:56:53 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-04-03 15:57:08 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 15:57:12 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-04-03 15:57:20 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-04-03 15:58:38 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-09 13:15:17 [Aryan] [USER_REGISTER] Registered with 5 encoding(s)
+2026-05-09 13:15:54 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-09 13:15:55 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-09 13:15:59 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Aryan
+2026-05-09 13:15:59 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-09 13:16:22 [Aryan] [AUTH_SUCCESS] User authenticated successfully
+2026-05-09 13:16:23 [Aryan] [SESSION_START] Gesture control session started
+2026-05-09 13:16:35 [Aryan] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-09 13:16:41 [Aryan] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-09 13:16:45 [Aryan] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-05-09 13:16:49 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-09 13:16:49 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-09 13:19:33 [Atharv] [USER_REGISTER] Registered with 5 encoding(s)
+2026-05-23 10:44:55 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 10:44:56 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 10:45:13 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 10:45:13 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:33:13 [SYSTEM] [AUTH_FAILURE] Authentication failed: Timeout
+2026-05-23 11:33:14 [SYSTEM] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:33:36 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:33:36 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:33:45 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 11:33:45 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:34:09 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:34:10 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:34:18 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 11:34:19 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:34:51 [Atharv] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:34:52 [Atharv] [SESSION_START] Gesture control session started
+2026-05-23 11:34:54 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: vighnesh
+2026-05-23 11:34:55 [Atharv] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:35:37 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:35:37 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:35:51 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-23 11:36:10 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Aryan
+2026-05-23 11:36:10 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:36:31 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:36:31 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:36:34 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Aryan
+2026-05-23 11:36:34 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:36:56 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:36:57 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:37:03 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:37:11 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 11:37:11 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-23 11:37:11 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:37:36 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:37:37 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:37:41 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:37:45 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-23 11:37:47 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-23 11:37:53 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 11:38:05 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 11:38:10 [vighnesh] [GESTURE] Gesture 'two_fingers' executed action 'volumedown'
+2026-05-23 11:38:16 [vighnesh] [GESTURE] Gesture 'two_fingers' executed action 'volumedown'
+2026-05-23 11:38:23 [vighnesh] [GESTURE] Gesture 'two_fingers' executed action 'volumedown'
+2026-05-23 11:38:26 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 11:38:27 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:39:03 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:39:03 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:39:15 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-23 11:39:17 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-23 11:39:23 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:39:23 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 11:39:24 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:39:44 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:39:45 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:39:50 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Aryan
+2026-05-23 11:39:50 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:40:08 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:40:09 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:40:15 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 11:40:16 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:40:45 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:40:46 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:41:07 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:41:13 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 11:41:20 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 11:41:26 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 11:41:26 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:41:51 [Aryan] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:41:52 [Aryan] [SESSION_START] Gesture control session started
+2026-05-23 11:42:06 [Aryan] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-23 11:42:12 [Aryan] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 11:42:14 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 11:42:14 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:42:33 [Aryan] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:42:34 [Aryan] [SESSION_START] Gesture control session started
+2026-05-23 11:43:26 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 11:43:26 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:48:02 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:48:03 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:48:13 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:48:41 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 11:48:46 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:48:55 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:49:04 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Aryan
+2026-05-23 11:49:04 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:52:56 [Atharv] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:52:56 [Atharv] [SESSION_START] Gesture control session started
+2026-05-23 11:53:01 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 11:53:16 [Atharv] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:53:32 [Atharv] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-05-23 11:53:51 [Atharv] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:53:53 [Atharv] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-05-23 11:54:04 [Atharv] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-05-23 11:54:24 [Atharv] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:54:29 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 11:54:41 [Atharv] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:54:47 [Atharv] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:54:57 [Atharv] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:55:03 [Atharv] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 11:55:14 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 11:58:48 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:58:49 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 11:58:56 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:59:00 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:59:04 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 11:59:07 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:59:10 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 11:59:17 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-05-23 11:59:22 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 11:59:31 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:59:33 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 11:59:35 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 11:59:35 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 11:59:57 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 11:59:57 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 12:00:42 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:00:53 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 12:00:57 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 12:01:03 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:01:26 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-05-23 12:01:32 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:01:35 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:01:37 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:01:39 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 12:01:43 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 12:01:49 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-05-23 12:01:51 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 12:01:53 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:01:56 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 12:03:22 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:03:28 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:03:32 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:03:39 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 12:03:43 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 12:03:49 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'volumedown'
+2026-05-23 12:04:00 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 12:04:04 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-05-23 12:05:00 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-05-23 12:05:36 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 12:05:39 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 12:05:57 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 12:05:57 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 12:06:01 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 12:06:01 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 12:19:04 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 12:19:04 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 12:19:08 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-05-23 12:19:12 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screenshot'
+2026-05-23 12:19:30 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 12:20:11 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:20:17 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:20:21 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:20:31 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 12:20:45 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Aryan
+2026-05-23 12:20:46 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 13:12:57 [SYSTEM] [AUTH_FAILURE] Authentication failed: Timeout
+2026-05-23 13:12:58 [SYSTEM] [SESSION_END] Session ended: Normal exit
+2026-05-23 13:13:21 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 13:13:21 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 13:13:41 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:13:43 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:13:45 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:13:51 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:13:56 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:13:59 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:14:01 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:14:04 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:14:05 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:14:07 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:14:09 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 13:14:12 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 13:14:13 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 13:14:15 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 13:14:17 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 13:14:37 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:14:46 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:14:50 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 13:14:54 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-05-23 13:14:57 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 13:15:00 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-05-23 13:15:02 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 13:15:04 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-05-23 13:15:06 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:15:08 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:15:10 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 13:15:16 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 13:15:22 [vighnesh] [GESTURE] Gesture 'two_fingers' executed action 'volumedown'
+2026-05-23 13:15:23 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-05-23 13:15:28 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 13:15:30 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 13:15:33 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 13:15:34 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 13:15:45 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 13:15:45 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 13:16:58 [Aryan] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 13:16:58 [Aryan] [SESSION_START] Gesture control session started
+2026-05-23 13:16:59 [Aryan] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 13:17:02 [Aryan] [SCREEN_RECORD] Recording started
+2026-05-23 13:17:02 [Aryan] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 13:17:04 [Aryan] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 13:17:14 [Aryan] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 13:17:18 [Aryan] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 13:17:44 [Aryan] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_131702.mp4
+2026-05-23 13:20:27 [Aryan] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 13:20:33 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 13:20:33 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-23 13:34:10 [Aryan] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 13:34:10 [Aryan] [SESSION_START] Gesture control session started
+2026-05-23 13:34:37 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 13:34:37 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-23 13:34:58 [Atharv] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 13:34:59 [Atharv] [SESSION_START] Gesture control session started
+2026-05-23 13:34:59 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: vighnesh
+2026-05-23 13:35:00 [Atharv] [SESSION_END] Session ended: Normal exit
+2026-05-23 13:35:44 [Aryan] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 13:35:45 [Aryan] [SESSION_START] Gesture control session started
+2026-05-23 13:35:46 [Aryan] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 13:35:48 [Aryan] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 13:36:01 [Aryan] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 13:36:03 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 13:36:03 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-23 13:38:49 [Aryan] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 13:38:49 [Aryan] [SESSION_START] Gesture control session started
+2026-05-23 13:39:00 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: vighnesh
+2026-05-23 13:39:01 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-23 14:53:24 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 14:53:25 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 14:53:27 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 14:54:15 [Atharv] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 14:54:16 [Atharv] [SESSION_START] Gesture control session started
+2026-05-23 14:54:19 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: vighnesh
+2026-05-23 14:54:19 [Atharv] [SESSION_END] Session ended: Normal exit
+2026-05-23 14:54:45 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 14:54:45 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 14:55:31 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 14:55:36 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 14:55:56 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-05-23 14:56:03 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 14:57:29 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 14:57:49 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 14:57:57 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-05-23 14:58:00 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 14:58:00 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 14:58:02 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 14:58:03 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 14:58:07 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 14:58:20 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 14:58:34 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 14:58:37 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 14:58:44 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 14:58:48 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 14:58:53 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 14:58:55 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 14:58:57 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 14:58:59 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 14:59:05 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 14:59:07 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 14:59:09 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 14:59:09 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 14:59:33 [SYSTEM] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_145800.mp4
+2026-05-23 14:59:50 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 14:59:50 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 14:59:59 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 14:59:59 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 15:00:12 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:00:12 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 15:37:40 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:37:41 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 15:37:55 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:37:57 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 15:38:22 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:38:25 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:38:27 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:38:31 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:38:37 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:38:42 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 15:38:43 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 15:38:45 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 15:38:47 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 15:38:53 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:38:56 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:39:00 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:39:06 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Aryan
+2026-05-23 15:39:06 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 15:39:41 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:39:41 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 15:39:55 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 15:39:55 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:40:01 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_153955.mp4
+2026-05-23 15:40:01 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:40:07 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 15:40:07 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:40:10 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_154007.mp4
+2026-05-23 15:40:10 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:40:16 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 15:40:16 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:40:19 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_154016.mp4
+2026-05-23 15:40:19 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:41:01 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 15:41:02 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 15:41:37 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:41:37 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 15:41:47 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:41:49 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-05-23 15:41:52 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-05-23 15:42:05 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-05-23 15:42:07 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-05-23 15:42:22 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:42:23 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-05-23 15:42:59 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 15:43:00 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 15:45:01 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:45:01 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 15:45:06 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:45:07 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 15:45:07 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 15:45:30 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:45:31 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 15:45:32 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:45:45 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:45:48 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-05-23 15:45:50 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:45:54 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:45:57 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:45:58 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:46:04 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:46:04 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 15:46:04 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 15:46:27 [Atharv] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:46:28 [Atharv] [SESSION_START] Gesture control session started
+2026-05-23 15:46:28 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: vighnesh
+2026-05-23 15:46:29 [Atharv] [SESSION_END] Session ended: Normal exit
+2026-05-23 15:46:48 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:46:49 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 15:46:52 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:46:56 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 15:46:56 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 15:47:11 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:47:12 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 15:47:15 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 15:47:21 [SYSTEM] [BLOCKED] Gesture 'face_change' blocked: Different user: Atharv
+2026-05-23 15:47:21 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-23 15:52:12 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 15:52:13 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 15:52:20 [Atharv] [AUTH_SWITCH] Active user switched to Atharv
+2026-05-23 15:52:21 [Atharv] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:52:26 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:52:26 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:52:28 [Atharv] [AUTH_SWITCH] Active user switched to Atharv
+2026-05-23 15:52:28 [Atharv] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 15:52:30 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:52:30 [vighnesh] [GESTURE] Gesture 'swipe_up' executed action 'scroll_up'
+2026-05-23 15:52:32 [Atharv] [AUTH_SWITCH] Active user switched to Atharv
+2026-05-23 15:52:34 [Atharv] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:52:37 [Atharv] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 15:52:38 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:52:42 [Atharv] [AUTH_SWITCH] Active user switched to Atharv
+2026-05-23 15:52:43 [Atharv] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-23 15:52:48 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:52:51 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 15:52:51 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:52:53 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:52:54 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-05-23 15:52:54 [Aryan] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 15:52:58 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:53:03 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_155251.mp4
+2026-05-23 15:53:03 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:53:09 [Atharv] [AUTH_SWITCH] Active user switched to Atharv
+2026-05-23 15:53:10 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:53:17 [vighnesh] [GESTURE] Gesture 'three_fingers' executed action 'mute'
+2026-05-23 15:53:21 [vighnesh] [GESTURE] Gesture 'two_fingers' executed action 'volumedown'
+2026-05-23 15:53:23 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-05-23 15:53:24 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:53:25 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:53:35 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 15:53:39 [Atharv] [AUTH_SWITCH] Active user switched to Atharv
+2026-05-23 15:53:41 [Atharv] [SCREEN_RECORD] Recording started
+2026-05-23 15:53:41 [Atharv] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:53:45 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:53:49 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 15:53:52 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:53:54 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_155341.mp4
+2026-05-23 15:53:54 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:53:56 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 15:53:56 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:53:58 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_155356.mp4
+2026-05-23 15:53:58 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:53:59 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 15:53:59 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:54:01 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_155359.mp4
+2026-05-23 15:54:01 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:54:05 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 15:54:05 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:54:07 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_155405.mp4
+2026-05-23 15:54:07 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:54:11 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 15:54:11 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 15:54:15 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:54:16 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:54:20 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:54:22 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:54:25 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:54:27 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 15:54:28 [Atharv] [AUTH_SWITCH] Active user switched to Atharv
+2026-05-23 15:54:31 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:54:32 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:54:36 [Atharv] [AUTH_SWITCH] Active user switched to Atharv
+2026-05-23 15:54:41 [Atharv] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:54:42 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-23 15:54:44 [Atharv] [AUTH_SWITCH] Active user switched to Atharv
+2026-05-23 15:54:45 [Atharv] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:54:47 [Atharv] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 15:54:51 [Atharv] [SESSION_END] Session ended: Normal exit
+2026-05-23 16:01:08 [vighnesh] [AUTH_SUCCESS] User authenticated successfully
+2026-05-23 16:01:09 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-23 16:01:31 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 16:01:54 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 16:02:02 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 16:02:05 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 16:02:11 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 16:02:14 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 16:02:28 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 16:02:37 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 16:02:42 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-23 16:02:42 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 16:02:52 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 16:03:12 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 16:03:20 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 16:03:26 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 16:03:28 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 16:03:31 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 16:03:35 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 16:03:39 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 16:03:43 [vighnesh] [GESTURE] Gesture 'swipe_left' executed action 'swipe_left'
+2026-05-23 16:03:53 [vighnesh] [GESTURE] Gesture 'swipe_right' executed action 'swipe_right'
+2026-05-23 16:03:57 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260523_160242.mp4
+2026-05-23 16:03:57 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-23 16:04:20 [vighnesh] [GESTURE] Gesture 'swipe_down' executed action 'scroll_down'
+2026-05-23 16:05:13 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 16:05:33 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-23 16:05:56 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 16:05:57 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-23 16:05:58 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-23 16:05:59 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-28 23:52:35 [Atharv] [AUTH_SUCCESS] User authenticated successfully
+2026-05-28 23:52:35 [Atharv] [SESSION_START] Gesture control session started
+2026-05-28 23:52:36 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-28 23:52:42 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-28 23:52:42 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-28 23:52:45 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260528_235242.mp4
+2026-05-28 23:52:45 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-28 23:52:48 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-05-28 23:53:00 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-05-28 23:53:00 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-29 12:42:59 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-05-29 12:42:59 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-29 12:43:16 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 12:43:24 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 12:43:27 [vighnesh] [SHUTDOWN] System shutdown triggered by gesture
+2026-05-29 12:49:20 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-05-29 12:49:20 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-29 12:49:21 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-05-29 12:49:34 [Aryan] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-29 12:49:39 [Aryan] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-29 12:49:41 [Aryan] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-29 12:49:43 [Aryan] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-05-29 12:49:47 [Aryan] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-05-29 12:49:50 [Aryan] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-05-29 12:50:00 [Aryan] [GESTURE] Gesture 'count_3' executed action 'mute'
+2026-05-29 12:50:06 [Aryan] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-29 12:50:19 [Aryan] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-05-29 12:50:24 [Aryan] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 12:50:29 [Aryan] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 12:50:32 [Aryan] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 12:50:36 [Aryan] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-29 12:50:42 [Aryan] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-29 12:50:47 [Aryan] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-29 12:50:51 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-29 12:50:57 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-29 12:51:05 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 12:51:22 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-29 12:51:38 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-05-29 12:53:12 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-29 12:53:12 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-29 12:53:15 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260529_125312.mp4
+2026-05-29 12:53:15 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-29 12:53:23 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 12:56:52 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-05-29 12:57:53 [Aryan] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 12:58:10 [Aryan] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-29 12:58:21 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-29 12:58:24 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-29 12:58:30 [vighnesh] [SCREEN_RECORD] Recording started
+2026-05-29 12:58:30 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-29 12:58:36 [vighnesh] [SCREEN_RECORD] Recording saved: recordings\recording_20260529_125830.mp4
+2026-05-29 12:58:36 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-05-29 12:58:45 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-05-29 12:59:01 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 12:59:04 [vighnesh] [SHUTDOWN] System shutdown triggered by gesture
+2026-05-29 13:05:01 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-05-29 13:05:01 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-29 13:05:02 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-05-29 13:05:05 [Aryan] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-29 13:05:16 [Aryan] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-29 13:05:37 [Aryan] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-29 13:06:33 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-05-29 13:12:45 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-29 13:12:53 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-29 13:13:05 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-29 13:13:06 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-29 13:13:08 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-29 13:15:41 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-29 13:15:53 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-30 11:22:03 [Aryan] [AUTH_SUCCESS] Face authentication successful
+2026-05-30 11:22:04 [Aryan] [SESSION_START] Gesture control session started
+2026-05-30 11:22:12 [Aryan] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-30 11:22:16 [Aryan] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-30 11:22:26 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-30 11:23:28 [Aryan] [AUTH_SUCCESS] Face authentication successful
+2026-05-30 11:23:29 [Aryan] [SESSION_START] Gesture control session started
+2026-05-30 11:23:35 [Aryan] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-30 11:24:19 [Aryan] [SESSION_END] Session ended: Normal exit
+2026-05-30 11:30:58 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-05-30 11:30:59 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-30 11:31:04 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 11:31:06 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 11:31:07 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 11:31:09 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 11:31:10 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-30 11:31:13 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-30 11:31:19 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 11:31:20 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 11:31:21 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 11:31:22 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 11:31:23 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 11:31:25 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'shutdown'
+2026-05-30 11:31:26 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 11:31:28 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 11:31:29 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 11:31:31 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-30 11:31:44 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-30 11:31:48 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-30 11:31:50 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-30 11:31:52 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-05-30 11:31:54 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-05-30 11:32:06 [vighnesh] [GESTURE] Gesture 'count_3' executed action 'mute'
+2026-05-30 11:36:24 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-05-30 13:21:25 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-05-30 13:21:26 [vighnesh] [SESSION_START] Gesture control session started
+2026-05-30 13:21:29 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:21:31 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:21:33 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:21:36 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:21:37 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:21:39 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:21:43 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:21:44 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:21:49 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-30 13:21:53 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-30 13:21:56 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:21:57 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:22:58 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:23:02 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:23:05 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:23:14 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:23:17 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:23:19 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:23:21 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:23:23 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:23:25 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:23:28 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:23:29 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:23:30 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:23:31 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:23:33 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:23:34 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:23:35 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:23:36 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:23:44 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-30 13:23:48 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-30 13:23:56 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-05-30 13:23:58 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-30 13:24:01 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-05-30 13:24:05 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-30 13:24:12 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-30 13:24:15 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-30 13:24:31 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:24:34 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-30 13:24:38 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-05-30 13:24:43 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-30 13:24:47 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-30 13:24:49 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-05-30 13:24:50 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-30 13:24:53 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-05-30 13:25:00 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-05-30 13:25:06 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-30 13:25:08 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-05-30 13:25:27 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-30 13:25:28 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-05-30 13:25:36 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-05-30 13:25:41 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:25:43 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-30 13:25:52 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:25:53 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:25:55 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:25:56 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:25:57 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-05-30 13:25:59 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:26:03 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:26:04 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:26:07 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-05-30 13:26:10 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-05-30 13:26:26 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:26:33 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:26:40 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:26:46 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:26:48 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:27:00 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-05-30 13:27:02 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:27:07 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:27:18 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:27:20 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:27:22 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:27:23 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-05-30 13:27:32 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:27:33 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-05-30 13:27:38 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-05-30 13:27:42 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-30 13:27:44 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-05-30 13:28:34 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 13:25:17 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 13:25:18 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 13:25:23 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:25:25 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:25:27 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 13:25:34 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:25:36 [vighnesh] [GESTURE] Gesture 'count_7' executed action 'task_view'
+2026-06-01 13:25:38 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:25:40 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 13:25:44 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:25:46 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:25:48 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:25:50 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:25:51 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:25:53 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 13:25:57 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 13:26:00 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 13:26:04 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 13:26:07 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 13:26:08 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 13:26:10 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 13:26:12 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 13:26:21 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 13:26:26 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-01 13:26:31 [vighnesh] [SCREEN_RECORD] Recording started
+2026-06-01 13:26:31 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-01 13:26:36 [vighnesh] [SCREEN_RECORD] Recording stopped: recordings\recording_20260601_132631.mp4
+2026-06-01 13:26:36 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-01 13:26:39 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:26:43 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:26:46 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:26:47 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:26:48 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:27:12 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-01 13:27:14 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 13:27:24 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:27:25 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:27:26 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:27:28 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:27:29 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:27:55 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:27:57 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:27:58 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:28:37 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:28:40 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:28:53 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:28:56 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 13:28:59 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 13:29:04 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 13:29:10 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 13:29:13 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 13:29:15 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 13:29:20 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:29:23 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:29:27 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:29:29 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:29:30 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:29:31 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:29:39 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:29:40 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:29:41 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:29:42 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:29:43 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:29:45 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 13:29:46 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:29:47 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 13:29:51 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:29:52 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:30:03 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 13:30:10 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 13:30:14 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 13:30:17 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 13:30:20 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 13:30:30 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:30:33 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 13:30:42 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-01 13:30:45 [vighnesh] [SCREEN_RECORD] Recording started
+2026-06-01 13:30:45 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-01 13:30:58 [vighnesh] [SCREEN_RECORD] Recording stopped: recordings\recording_20260601_133045.mp4
+2026-06-01 13:30:58 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-01 13:31:04 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 13:33:12 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 13:59:33 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 13:59:34 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 13:59:35 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 13:59:36 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 13:59:48 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:59:50 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:59:52 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:59:53 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:59:55 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:59:56 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 13:59:58 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 14:00:04 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 14:00:05 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 14:00:07 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 14:00:09 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 14:00:10 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 14:00:12 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 14:00:13 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 14:00:15 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 14:00:16 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 14:00:18 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 14:00:20 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 14:00:21 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 14:00:23 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:00:24 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:00:26 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:00:27 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 14:00:31 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 14:00:33 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 14:00:34 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 14:00:35 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 14:00:37 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 14:00:38 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 14:00:39 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 14:00:42 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 14:00:46 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 14:04:01 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 14:07:04 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-06-01 14:07:05 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 14:48:55 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 14:48:56 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 14:48:58 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:49:00 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 14:49:01 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:49:02 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:49:03 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:49:05 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:49:06 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:49:07 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:49:08 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:49:09 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:49:11 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 14:49:12 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 14:49:13 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 14:49:15 [vighnesh] [GESTURE] Gesture 'count_7' executed action 'task_view'
+2026-06-01 14:49:20 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 14:49:24 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 14:49:27 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 14:49:33 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 14:49:35 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 14:49:36 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 14:49:38 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 14:49:40 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 14:49:42 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 14:49:45 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 14:50:07 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 14:50:23 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 14:50:25 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 14:50:27 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-06-01 14:50:29 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-06-01 14:50:31 [vighnesh] [GESTURE] Gesture 'count_7' executed action 'task_view'
+2026-06-01 14:50:32 [vighnesh] [GESTURE] Gesture 'count_7' executed action 'task_view'
+2026-06-01 14:50:36 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 14:51:59 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 14:54:57 [SYSTEM] [AUTH_FAILURE] Authentication failed: Max failures (5)
+2026-06-01 14:54:57 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 14:56:24 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 14:56:25 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 14:57:09 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 14:57:52 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 14:57:53 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 14:58:42 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 14:58:56 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 14:59:59 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:00:01 [vighnesh] [GESTURE] Gesture 'count_3' executed action 'mute'
+2026-06-01 15:00:04 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:00:06 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:01:04 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:01:25 [vighnesh] [GESTURE] Gesture 'count_5_center' executed action 'screenshot'
+2026-06-01 15:01:27 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:01:28 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:01:30 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:01:42 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:01:46 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:01:49 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:01:51 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:01:53 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:01:54 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:02:10 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:02:44 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:02:45 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:02:55 [vighnesh] [GESTURE] Gesture 'count_10' executed action 'shutdown'
+2026-06-01 15:02:57 [vighnesh] [GESTURE] Gesture 'count_10' executed action 'shutdown'
+2026-06-01 15:02:58 [vighnesh] [GESTURE] Gesture 'count_10' executed action 'shutdown'
+2026-06-01 15:02:58 [vighnesh] [SHUTDOWN] System shutdown triggered by gesture
+2026-06-01 15:06:31 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:06:32 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:06:52 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:06:53 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:06:55 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:06:57 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:06:58 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 15:06:59 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 15:07:01 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 15:07:03 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 15:07:04 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 15:07:06 [vighnesh] [GESTURE] Gesture 'count_5_down' executed action 'scroll_down'
+2026-06-01 15:07:08 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 15:07:09 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 15:07:11 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-01 15:07:13 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:15 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:17 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:18 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:21 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:23 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:25 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:26 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:28 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:30 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:32 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:07:33 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:07:35 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:07:37 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:07:39 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:07:40 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:07:42 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:07:43 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:07:45 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:07:53 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:07:57 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:07:59 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:08:02 [vighnesh] [GESTURE] Gesture 'count_5_center' executed action 'screenshot'
+2026-06-01 15:08:08 [vighnesh] [SCREEN_RECORD] Recording started
+2026-06-01 15:08:08 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-01 15:08:10 [vighnesh] [SCREEN_RECORD] Recording stopped: recordings\recording_20260601_150808.mp4
+2026-06-01 15:08:10 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-01 15:08:11 [vighnesh] [SCREEN_RECORD] Recording started
+2026-06-01 15:08:11 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-01 15:08:13 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 15:08:21 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:08:23 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:08:24 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:09:40 [vighnesh] [GESTURE] Gesture 'count_5_down' executed action 'scroll_down'
+2026-06-01 15:10:04 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:15 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:17 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:26 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:29 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:31 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:34 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:36 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:37 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:39 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:40 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:10:57 [vighnesh] [GESTURE] Gesture 'count_5_center' executed action 'screenshot'
+2026-06-01 15:10:59 [vighnesh] [GESTURE] Gesture 'count_5_center' executed action 'screenshot'
+2026-06-01 15:11:01 [vighnesh] [GESTURE] Gesture 'count_5_center' executed action 'screenshot'
+2026-06-01 15:11:08 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:11:10 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-01 15:11:23 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-01 15:12:08 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:12:15 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:12:17 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:12:19 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:12:20 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:12:22 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:12:24 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:12:26 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:12:32 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:12:34 [SYSTEM] [SCREEN_RECORD] Recording stopped: recordings\recording_20260601_150811.mp4
+2026-06-01 15:13:55 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:13:56 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:14:00 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:14:01 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:14:16 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:14:17 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:14:20 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:14:21 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:14:36 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:14:37 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:14:40 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:14:40 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:19:45 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:19:46 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:19:50 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:19:51 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:20:17 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:20:18 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:20:21 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:20:21 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:20:36 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:20:37 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:20:40 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:20:41 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:21:33 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:21:34 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:22:00 [vighnesh] [GESTURE] Gesture 'count_3' executed action 'mute'
+2026-06-01 15:22:02 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:22:03 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:22:03 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:34:17 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:34:18 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:34:27 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:34:28 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:34:29 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 15:34:31 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:34:32 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:34:33 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:34:35 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 15:34:36 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 15:34:37 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:34:39 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:34:41 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 15:34:42 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 15:34:43 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 15:34:44 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 15:34:46 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-01 15:34:48 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:34:50 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:34:51 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:34:53 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-01 15:34:56 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:34:57 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:34:59 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:35:00 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:35:02 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:35:03 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:35:05 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:35:05 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:35:06 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:35:27 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:35:28 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:35:33 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-01 15:35:35 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:37 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:38 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:40 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:41 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:43 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:45 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:46 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:48 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:50 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-01 15:35:51 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-01 15:35:53 [vighnesh] [SCREEN_RECORD] Recording started
+2026-06-01 15:35:53 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-01 15:35:57 [vighnesh] [SCREEN_RECORD] Recording stopped: recordings\recording_20260601_153553.mp4
+2026-06-01 15:35:57 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-01 15:36:01 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 15:36:03 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 15:36:07 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-01 15:36:09 [vighnesh] [GESTURE] Gesture 'count_7' executed action 'task_view'
+2026-06-01 15:36:10 [vighnesh] [GESTURE] Gesture 'count_7' executed action 'task_view'
+2026-06-01 15:36:13 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-06-01 15:36:15 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-06-01 15:36:16 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 15:36:18 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-01 15:36:25 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:36:25 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-01 15:39:51 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-01 15:39:52 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-01 15:40:12 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:40:14 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-01 15:40:21 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-01 15:40:23 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:40:24 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-01 15:40:26 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 15:40:27 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-01 15:40:59 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-01 15:40:59 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-05 02:04:19 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-05 02:04:20 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-05 02:04:28 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-05 02:04:29 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-05 02:05:07 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-05 02:05:07 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-05 02:05:12 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-05 02:05:12 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-05 02:05:33 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-05 02:05:34 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-05 02:05:42 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-05 02:05:44 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 02:05:44 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 4.0s (timeout 4.0s)
+2026-06-05 02:05:45 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-05 11:09:48 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-05 11:09:49 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-05 11:09:50 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-05 11:10:01 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 11:10:02 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 11:10:15 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 11:10:17 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 11:10:18 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 11:10:22 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 11:10:24 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-05 11:10:26 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-05 11:11:03 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 10.0s (timeout 10.0s)
+2026-06-05 11:11:03 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-05 16:07:02 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-05 16:07:03 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-05 16:07:10 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-05 16:07:25 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:07:26 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:07:28 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:07:29 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:07:31 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:07:48 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:07:51 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:07:53 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:07:55 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:07:57 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:08:00 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:08:01 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:08:03 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:08:04 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:08:06 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:08:07 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:08:09 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:08:10 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:08:13 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:08:18 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-06-05 16:08:22 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-06-05 16:08:22 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:08:30 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:08:34 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-05 16:08:37 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-05 16:08:38 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-05 16:08:40 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:08:41 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-05 16:08:43 [vighnesh] [SCREEN_RECORD] Recording started
+2026-06-05 16:08:43 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-05 16:08:46 [vighnesh] [SCREEN_RECORD] Recording stopped: recordings\recording_20260605_160843.mp4
+2026-06-05 16:08:46 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-05 16:08:54 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:08:56 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:08:58 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-05 16:08:59 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:09:03 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:09:14 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-05 16:09:30 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:09:36 [vighnesh] [GESTURE] Gesture 'count_6' executed action 'escape'
+2026-06-05 16:09:48 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-05 16:09:49 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-05 16:10:01 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-06-05 16:10:04 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-06-05 16:10:19 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-06-05 16:10:22 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-06-05 16:10:29 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-05 16:10:31 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-05 16:10:33 [Aryan] [AUTH_SWITCH] Active user switched to Aryan
+2026-06-05 16:10:34 [Aryan] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-05 16:10:36 [vighnesh] [AUTH_SWITCH] Active user switched to vighnesh
+2026-06-05 16:10:42 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-05 16:10:48 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-05 16:10:50 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-05 16:10:54 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-05 16:11:04 [vighnesh] [GESTURE] Gesture 'count_10' executed action 'shutdown'
+2026-06-05 16:11:05 [vighnesh] [GESTURE] Gesture 'count_10' executed action 'shutdown'
+2026-06-05 16:11:07 [vighnesh] [GESTURE] Gesture 'count_10' executed action 'shutdown'
+2026-06-05 16:11:07 [vighnesh] [SHUTDOWN] System shutdown triggered by gesture
+2026-06-05 16:29:08 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-05 16:29:09 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-05 16:29:10 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-05 16:29:12 [vighnesh] [GESTURE] Gesture 'fist' executed action 'playpause'
+2026-06-05 16:29:19 [vighnesh] [GESTURE] Gesture 'count_5_down' executed action 'scroll_down'
+2026-06-05 16:29:35 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:36 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:38 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:39 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:41 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:44 [vighnesh] [GESTURE] Gesture 'count_4' executed action 'playpause'
+2026-06-05 16:29:45 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:46 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:48 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:49 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:51 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:52 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:54 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:56 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:29:59 [vighnesh] [SCREEN_RECORD] Recording started
+2026-06-05 16:29:59 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-05 16:30:05 [vighnesh] [SCREEN_RECORD] Recording stopped: recordings\recording_20260605_162959.mp4
+2026-06-05 16:30:05 [vighnesh] [GESTURE] Gesture 'ok_sign' executed action 'screen_record'
+2026-06-05 16:30:08 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-05 16:30:10 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-05 16:30:12 [vighnesh] [GESTURE] Gesture 'peace_sign' executed action 'screenshot'
+2026-06-05 16:30:14 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:15 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:17 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:19 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:20 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-05 16:30:22 [vighnesh] [GESTURE] Gesture 'count_8' executed action 'lock_screen'
+2026-06-05 16:30:30 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-05 16:30:32 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-05 16:30:34 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-05 16:30:35 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-05 16:30:37 [vighnesh] [GESTURE] Gesture 'thumbs_down' executed action 'brightness_down'
+2026-06-05 16:30:38 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:40 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:41 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:43 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:44 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:46 [vighnesh] [GESTURE] Gesture 'thumbs_up' executed action 'brightness_up'
+2026-06-05 16:30:48 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-05 16:30:50 [vighnesh] [GESTURE] Gesture 'count_1' executed action 'volumeup'
+2026-06-05 16:30:52 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-05 16:30:53 [vighnesh] [GESTURE] Gesture 'count_2' executed action 'volumedown'
+2026-06-05 16:31:01 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-05 16:31:03 [vighnesh] [GESTURE] Gesture 'count_9' executed action 'desktop'
+2026-06-05 16:31:15 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:31:24 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:31:44 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:31:46 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:31:48 [vighnesh] [GESTURE] Gesture 'count_5_right' executed action 'swipe_right'
+2026-06-05 16:32:03 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 10.0s (timeout 10.0s)
+2026-06-05 16:32:04 [vighnesh] [SESSION_END] Session ended: Normal exit
+2026-06-05 16:32:20 [vighnesh] [AUTH_SUCCESS] Face authentication successful
+2026-06-05 16:32:21 [vighnesh] [SESSION_START] Gesture control session started
+2026-06-05 16:32:23 [vighnesh] [GESTURE] Gesture 'count_5_left' executed action 'swipe_left'
+2026-06-05 16:32:26 [vighnesh] [GESTURE] Gesture 'count_3' executed action 'mute'
+2026-06-05 16:32:31 [SYSTEM] [AUTH_FAILURE] Authentication failed: Face absent for 10.0s (timeout 10.0s)
+2026-06-05 16:32:32 [vighnesh] [SESSION_END] Session ended: Normal exit

@@ -1,0 +1,1223 @@
+================================================================================
+  GestureOS — SYSTEM DESIGN DIAGRAMS
+  Chapter 8: System Design
+================================================================================
+
+
+--------------------------------------------------------------------------------
+8.3  UI FLOW DESIGN
+--------------------------------------------------------------------------------
+
+  The UI Flow Design illustrates how a user navigates through the GestureOS
+  graphical interface, which is built as a single-window Tkinter application
+  with a persistent sidebar containing five navigation pages. The flow begins
+  at the Control page — the default landing page — and branches based on user
+  intent: starting a session, registering a new user, remapping gestures,
+  adjusting settings, or reviewing logs. Each page has its own internal
+  workflow; for example, the Users page walks through a five-angle camera
+  capture process before registration, and the Control page drives the
+  two-phase session lifecycle (authentication then gesture control). All
+  configuration changes made through the GUI are immediately persisted to
+  system_config.json, ensuring settings survive application restarts.
+
+  Application Launch (main.py)
+            |
+            v
+  +------------------+
+  |   GestureOS GUI  |  (gui_app.py — GestureControlGUI)
+  |   1340 x 840 px  |
+  +------------------+
+            |
+            |  Sidebar Navigation
+            |
+  +---------+---------+-----------+-----------+-----------+
+  |         |         |           |           |           |
+  v         v         v           v           v           v
+[Control] [Users]  [Gestures] [Settings]   [Logs]
+  Page      Page     Page        Page        Page
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  CONTROL PAGE                                                       │
+│  ─────────────────────────────────────────────────────────────────  │
+│  ▶ Start Session ──► [Authentication Window opens - OpenCV]         │
+│         |                      |                                    │
+│         |              Face detected? ──No──► Timeout 30s ──► Stop │
+│         |                      |                                    │
+│         |                     Yes                                   │
+│         |                      |                                    │
+│         |              ▶ Gesture Control Active                     │
+│  ⏹ Stop Session ◄──── Q key / Face absent 4s / Manual stop        │
+│                                                                     │
+│  ⏺ Start/Stop Recording (ScreenRecorder toggle)                    │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  USERS PAGE                                                         │
+│  ─────────────────────────────────────────────────────────────────  │
+│  View registered users list                                         │
+│       |                                                             │
+│  Select user ──► View details (created, last login, sessions)       │
+│       |                                                             │
+│  🗑 Delete User ──► Confirm dialog ──► Remove from config           │
+│                                                                     │
+│  Register New User:                                                 │
+│    Enter username                                                   │
+│         |                                                           │
+│    📷 Start Camera ──► Live preview shown                           │
+│         |                                                           │
+│    📸 Capture (×5 angles) ──► Progress dots fill                   │
+│         |                                                           │
+│    ✅ Register ──► CNN encoding ──► Save pkl ──► Update config      │
+│         OR                                                          │
+│    📁 Upload Photo ──► Single image encoding                        │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  GESTURES PAGE                                                      │
+│  ─────────────────────────────────────────────────────────────────  │
+│  Table: [Gesture Name]  [Dropdown: mapped action]                   │
+│  19 rows, one per gesture                                           │
+│       |                                                             │
+│  Change dropdown ──► 💾 Save All Mappings ──► Write to config JSON │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  SETTINGS PAGE                                                      │
+│  ─────────────────────────────────────────────────────────────────  │
+│  cooldown             [1.0]    gesture_stability     [3]            │
+│  face_tolerance       [0.5]    auth_check_frequency  [2]            │
+│  detection_confidence [0.7]    tracking_confidence   [0.7]          │
+│  max_auth_failures    [5]      enable_logging        [✓]            │
+│       |                                                             │
+│  💾 Save Settings ──► Validate types ──► Write to config JSON       │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  LOGS PAGE                                                          │
+│  ─────────────────────────────────────────────────────────────────  │
+│  Scrollable coloured log viewer (200 most recent lines)             │
+│  ↻ Refresh ──► Reload activity_log.txt                             │
+│  🗑 Clear   ──► Confirm ──► Delete activity_log.txt                │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+--------------------------------------------------------------------------------
+8.4  FLOW CHART
+--------------------------------------------------------------------------------
+
+  The following flowchart presents the complete operational flow of the
+  GestureOS system as a single end-to-end diagram, from application launch
+  through to session termination. It covers all major decision paths: the
+  dependency check at startup, the face authentication phase with its 30-second
+  timeout, the 25 FPS gesture detection loop including CLAHE preprocessing,
+  MediaPipe hand detection, ML and rule-based classification, confidence
+  gating, stability checking, hold-to-confirm timing, the multi-gate shutdown
+  safety mechanism with its 5-second danger hold and 3-second cancellable
+  countdown, and all session exit conditions including manual stop, Q key
+  press, and the 4-second face absence timeout. Every branch shown in the
+  diagram corresponds directly to a specific code path in gesture_control.py
+  and face_auth.py.
+
+          START
+            │
+            ▼
+   ┌────────────────────────┐
+   │  Launch Application    │
+   │  python main.py        │
+   └───────────┬────────────┘
+               │
+               ▼
+   ┌────────────────────────┐        ┌──────────────────────────────┐
+   │  Dependency Check      │──FAIL──►  Print missing packages      │
+   └───────────┬────────────┘        │  sys.exit(1)  ──►  END       │
+               │ PASS                └──────────────────────────────┘
+               ▼
+   ┌────────────────────────┐
+   │  Open Tkinter GUI      │
+   └───────────┬────────────┘
+               │
+               ▼
+   ┌────────────────────────┐
+   │  User clicks           │
+   │  "Start Session"       │
+   └───────────┬────────────┘
+               │
+               ▼
+   ┌────────────────────────┐        ┌──────────────────────────────┐
+   │  Open Webcam           │──FAIL──►  Show error dialog           │
+   │  cv2.VideoCapture(0)   │        │  Return to GUI               │
+   └───────────┬────────────┘        └──────────────────────────────┘
+               │ SUCCESS
+               ▼
+   ╔══════════════════════════════════════════════════════════╗
+   ║  PHASE 1 — FACE AUTHENTICATION                          ║
+   ║                                                          ║
+   ║   Read frame ──► Flip ──► Display                       ║
+   ║         │                                               ║
+   ║         ▼  (every 0.35s)                                ║
+   ║   Spawn auth worker:                                     ║
+   ║   CLAHE ──► HOG detect ──► ResNet encode                ║
+   ║         ──► Compare vs stored encodings                  ║
+   ║         │                                               ║
+   ║         ▼                                               ║
+   ║   ┌─────────────────────┐                               ║
+   ║   │ Face recognised?    │                               ║
+   ║   │ (dist ≤ 0.5)        │                               ║
+   ║   └──────┬──────────────┘                               ║
+   ║          │              │                               ║
+   ║         YES             NO                              ║
+   ║          │              │                               ║
+   ║          │        ┌─────▼───────────────┐              ║
+   ║          │        │  Timeout? (30s)     │              ║
+   ║          │        └──┬──────────────────┘              ║
+   ║          │          YES       NO                        ║
+   ║          │           │         │                        ║
+   ║          │     ┌─────▼────┐   LOOP                     ║
+   ║          │     │ Log fail │                             ║
+   ║          │     │ END      │                             ║
+   ║          │     └──────────┘                             ║
+   ╚══════════╪═════════════════════════════════════════════╝
+              │
+              ▼
+   ┌──────────────────────────────────────────────┐
+   │  Show WELCOME screen (800ms)                 │
+   │  Set current_user, last_seen_time             │
+   │  Load ML gesture model                       │
+   │  Log session start                           │
+   └──────────────────┬───────────────────────────┘
+                      │
+                      ▼
+   ╔══════════════════════════════════════════════════════════════════════╗
+   ║  PHASE 2 — GESTURE CONTROL LOOP  (25 FPS)                          ║
+   ║                                                                      ║
+   ║  ┌──────────────────────────────────────────────────────────────┐  ║
+   ║  │ Read frame ──► Flip ──► Write to shared state                │  ║
+   ║  └───────────────────────────┬──────────────────────────────────┘  ║
+   ║                              │                                       ║
+   ║  ┌───────────────────────────▼──────────────────────────────────┐  ║
+   ║  │ Background face re-auth (every 2s):                          │  ║
+   ║  │   last_seen_time > 0  AND  now - last_seen_time > 4.0s?      │  ║
+   ║  │   YES ──► _auth_result=False ──► STOP SESSION                │  ║
+   ║  └───────────────────────────┬──────────────────────────────────┘  ║
+   ║                              │ auth OK                               ║
+   ║  ┌───────────────────────────▼──────────────────────────────────┐  ║
+   ║  │ CLAHE preprocessing ──► resize to 480×360                    │  ║
+   ║  │ MediaPipe Hands.process()                                     │  ║
+   ║  └───────────────────────────┬──────────────────────────────────┘  ║
+   ║                              │                                       ║
+   ║                   ┌──────────▼──────────┐                           ║
+   ║                   │  Hand detected?     │                           ║
+   ║                   └────┬───────────┬────┘                           ║
+   ║                        │           │                                 ║
+   ║                       YES          NO                               ║
+   ║                        │           │                                 ║
+   ║                        │    ┌──────▼────────────────┐              ║
+   ║                        │    │ Ghost frames ≤ 3?     │              ║
+   ║                        │    │ YES: hold last gesture│              ║
+   ║                        │    │ NO:  clear history,   │              ║
+   ║                        │    │      reset hold timer │              ║
+   ║                        │    └───────────────────────┘              ║
+   ║                        │                                             ║
+   ║         ┌──────────────▼──────────────────────┐                    ║
+   ║         │ ML model available?                  │                    ║
+   ║         │  YES ──► SVM predict_proba           │                    ║
+   ║         │          → label + confidence        │                    ║
+   ║         │  NO  ──► Rule-based detection        │                    ║
+   ║         └──────────────┬──────────────────────-┘                    ║
+   ║                        │                                             ║
+   ║              ┌─────────▼─────────┐                                  ║
+   ║              │ confidence ≥ 0.75?│                                  ║
+   ║              └──┬────────────────┘                                  ║
+   ║                 │           │                                        ║
+   ║                YES          NO ──► Reset hold ──► LOOP              ║
+   ║                 │                                                    ║
+   ║     ┌───────────▼────────────────┐                                  ║
+   ║     │ Same gesture 3 frames?     │                                  ║
+   ║     │ (stability buffer)         │                                  ║
+   ║     └──┬─────────────────────────┘                                  ║
+   ║        │              │                                              ║
+   ║       YES             NO ──────────────────────────────► LOOP       ║
+   ║        │                                                             ║
+   ║     ┌──▼──────────────────────┐                                     ║
+   ║     │ Hold timer ≥ 0.4s?      │                                     ║
+   ║     └──┬──────────────────────┘                                     ║
+   ║        │              │                                              ║
+   ║       YES             NO ──────────────────────────────► LOOP       ║
+   ║        │                                                             ║
+   ║     ┌──▼──────────────────────┐                                     ║
+   ║     │ Is face authorised?     │                                     ║
+   ║     └──┬──────────────────────┘                                     ║
+   ║        │              │                                              ║
+   ║       YES             NO ──► Log blocked ──────────────► LOOP       ║
+   ║        │                                                             ║
+   ║     ┌──▼──────────────────────────────────────────────┐            ║
+   ║     │ Is action "shutdown" or "restart"?              │            ║
+   ║     └──┬──────────────────────────────────────────────┘            ║
+   ║        │                     │                                       ║
+   ║       NO                    YES                                     ║
+   ║        │                     │                                       ║
+   ║        │         ┌───────────▼─────────────────────────┐           ║
+   ║        │         │ confidence ≥ 75%?                   │           ║
+   ║        │         │ NO ──► Print blocked ──► LOOP       │           ║
+   ║        │         └───────────┬─────────────────────────┘           ║
+   ║        │                    YES                                      ║
+   ║        │         ┌───────────▼─────────────────────────┐           ║
+   ║        │         │ _danger_hold_start timer ≥ 5.0s?    │           ║
+   ║        │         │ NO ──► Print "hold Xs more" ──► LOOP│           ║
+   ║        │         └───────────┬─────────────────────────┘           ║
+   ║        │                    YES                                      ║
+   ║        │         ┌───────────▼─────────────────────────┐           ║
+   ║        │         │ Start 3-second countdown thread     │           ║
+   ║        │         │ Show red overlay on screen          │           ║
+   ║        │         │                                     │           ║
+   ║        │         │ ┌─────────────────────────────────┐ │           ║
+   ║        │         │ │  Every 1s: hand still up?       │ │           ║
+   ║        │         │ │  NO ──► "Shutdown cancelled"    │ │           ║
+   ║        │         │ │         Return to gesture loop  │ │           ║
+   ║        │         │ └──────────────┬──────────────────┘ │           ║
+   ║        │         │               │ (after 3s)          │           ║
+   ║        │         │               ▼                     │           ║
+   ║        │         │  subprocess.run(shutdown /s /t 0)   │           ║
+   ║        │         └─────────────────────────────────────┘           ║
+   ║        │                                                             ║
+   ║     ┌──▼──────────────────────────────────────────────┐            ║
+   ║     │ Execute action (pyautogui / win32api / sbc)     │            ║
+   ║     │ Log gesture event                               │            ║
+   ║     │ Cooldown 1.0s                                   │            ║
+   ║     └─────────────────────────────────────────────────┘            ║
+   ║                                                                      ║
+   ║     ┌──────────────────────────────────────────────────┐           ║
+   ║     │ Q pressed OR stop signal received?               │           ║
+   ║     │ YES ──► EXIT LOOP                                │           ║
+   ║     └──────────────────────────────────────────────────┘           ║
+   ║                                        │                            ║
+   ╚════════════════════════════════════════╪════════════════════════════╝
+                                            │
+                                            ▼
+                    ┌───────────────────────────────────────┐
+                    │  CLEANUP                              │
+                    │  cam.release()                        │
+                    │  cv2.destroyAllWindows()              │
+                    │  log_session_end()                    │
+                    │  GUI resets to IDLE                   │
+                    └───────────────────────────────────────┘
+                                            │
+                                            ▼
+                                          END
+
+
+--------------------------------------------------------------------------------
+8.6  DATA FLOW DIAGRAMS
+--------------------------------------------------------------------------------
+
+  The Data Flow Diagrams (DFDs) describe how data moves through the GestureOS
+  system at three levels of abstraction. At Level 0, the system is treated as
+  a single black box receiving webcam frames and user gestures as input and
+  producing OS-level actions, configuration writes, and log entries as output.
+  At Level 1, the system is decomposed into six major processes — preprocessing,
+  face authentication, hand gesture detection, safety and stability, action
+  execution, and logging — showing how data stores (the config JSON, face
+  encoding pickles, and the activity log) interact with each process. At Level
+  2, the two most complex processes are expanded further: gesture detection is
+  broken into MediaPipe detection, feature extraction, finger counting, ML
+  classification, and rule-based fallback; face authentication is broken into
+  the frame quality gate, HOG face detection, ResNet encoding, and distance
+  comparison. Together the three levels provide a complete, layered picture of
+  every data transformation in the system.
+
+8.6.1  DFD Level 0 — Context Diagram
+──────────────────────────────────────
+
+  The Level 0 Context Diagram presents the entire GestureOS system as a
+  single process bubble surrounded by its four external entities: the webcam
+  (which provides raw BGR video frames), the registered user (who presents
+  their face and performs hand gestures and receives OS-level feedback), the
+  unregistered user (whose gesture attempts are silently blocked), and the
+  operating system and file system (which receive keyboard/hotkey events,
+  media commands, and brightness adjustments, and store configuration, logs,
+  and recordings respectively). This diagram establishes the system boundary
+  and identifies all external interfaces without exposing any internal
+  processing detail.
+
+                   Webcam frames
+  [WEBCAM] ─────────────────────────────────────────►
+                                                      │
+  [USER]   ── Face + Hand gestures ─────────────────►│
+  (Registered)                                        │
+                                               ┌──────┴──────────┐
+  [USER]   ◄── System actions (OS control) ────│                 │
+  (Registered)                                 │   GestureOS     │
+                                               │   SYSTEM        │
+  [USER]   ── Attempts gesture ──────────────►│                 │
+  (Unregistered)                               └──────┬──────────┘
+                                                      │
+  [OS / PC] ◄── Hotkeys, media, brightness ──────────┘
+                                                      │
+  [FILESYSTEM] ◄── Config, logs, recordings ──────────┘
+
+
+8.6.2  DFD Level 1 — Main Processes
+─────────────────────────────────────
+
+  The Level 1 DFD decomposes the system into six numbered processes connected
+  by data flows. Process 1.0 (Preprocessing) receives raw frames from the
+  webcam and applies CLAHE lighting normalisation, horizontal flipping, and
+  resizing before distributing enhanced frames to both downstream processes.
+  Process 2.0 (Face Authentication) runs in a background thread every two
+  seconds, comparing a live face encoding against stored encodings from data
+  store D3, and feeding an auth result (True/False) into the safety layer.
+  Process 3.0 (Hand Gesture Detection) uses MediaPipe to extract 21 landmarks
+  per hand and classifies the gesture using either the SVM model from data
+  store D2 or the rule-based fallback, producing a gesture label and confidence
+  score. Process 4.0 (Safety and Stability) acts as a gatekeeper, applying
+  the 3-frame stability buffer, hold-to-confirm timer, danger hold timer,
+  cooldown, and auth check before passing a confirmed gesture to Process 5.0
+  (Action Execution), which dispatches the appropriate OS command. All
+  significant events are written to the activity log by Process 6.0 (Logging).
+
+  [WEBCAM]
+     │ Raw frames (BGR)
+     │
+     ▼
+  ┌──────────────────────┐      ┌─────────────────────┐
+  │  1.0                 │      │  D1: system_config   │
+  │  PREPROCESSING       │◄─────│  .json               │
+  │  (CLAHE, resize,     │      │  (tolerance, conf    │
+  │   flip, quality gate)│      │   thresholds)        │
+  └──────────┬───────────┘      └─────────────────────┘
+             │
+             │ Enhanced frames
+             │
+     ┌───────┴──────────┐
+     │                  │
+     ▼                  ▼
+  ┌──────────────┐   ┌──────────────────────┐
+  │  2.0         │   │  3.0                 │
+  │  FACE        │   │  HAND GESTURE        │
+  │  AUTHENTICATION   DETECTION             │
+  │              │   │                      │
+  │  HOG detect  │   │  MediaPipe 21-point  │
+  │  ResNet enc  │   │  landmark detection  │
+  │  Compare vs  │   │  ML + rule classify  │
+  │  stored enc  │   │                      │
+  └──────┬───────┘   └──────────┬───────────┘
+         │                      │
+         │ Auth result           │ Gesture label
+         │ (True/False)          │ + confidence
+         │                      │
+         ▼                      ▼
+  ┌──────────────────────────────────────┐
+  │  4.0                                 │
+  │  SAFETY & STABILITY LAYER            │
+  │                                      │
+  │  • 3-frame stability buffer          │
+  │  • Hold-to-confirm (0.4s)            │
+  │  • Danger hold timer (5s)            │
+  │  • Cooldown (1.0s)                   │
+  │  • Auth gate (blocks if unauth)      │
+  └──────────────────┬───────────────────┘
+                     │
+                     │ Confirmed gesture
+                     ▼
+  ┌──────────────────────────────────────┐
+  │  5.0                                 │
+  │  ACTION EXECUTION                    │
+  │                                      │
+  │  pyautogui / win32api / sbc /        │
+  │  subprocess                          │
+  └──────────────────┬───────────────────┘
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+          ▼                     ▼
+       [OS/PC]           ┌─────────────────┐
+   (volume, media,       │  6.0            │
+    brightness,          │  LOGGING        │
+    screenshot, etc.)    │  activity_log   │
+                         │  .txt           │
+                         └─────────────────┘
+
+
+8.6.3  DFD Level 2 — Gesture Detection (Process 3.0) Expanded
+───────────────────────────────────────────────────────────────
+
+  The Level 2 DFD expands both Process 3.0 (Gesture Detection) and Process
+  2.0 (Face Authentication) to their internal sub-processes. For gesture
+  detection, the enhanced frame first passes through sub-process 3.1
+  (MediaPipe Hand Detection) configured with model_complexity=1 and
+  max_num_hands=2, which outputs up to 42 normalised 3D landmarks and
+  handedness labels. Sub-processes 3.2 (Feature Extraction) and 3.3 (Finger
+  Counting) run in parallel: feature extraction builds the 126-dimensional
+  normalised vector used by the ML classifier, while finger counting applies
+  the palm-scale 3-cue majority vote algorithm independently for direct count
+  comparisons. Sub-process 3.4 (ML Classifier) queries the SVM model stored in
+  the gesture model pickle file; if confidence falls below 0.75, sub-process
+  3.5 (Rule-Based Fallback) takes over using shape detectors and palm zone
+  logic. For face authentication, sub-process 2.1 (Quality Gate) rejects
+  blurry or dark frames before the frame is resized and passed through 2.2
+  (HOG Detection), 2.3 (ResNet Encoding), and 2.4 (Distance Comparison) against
+  stored face encodings.
+
+  Enhanced frame (480×360)
+          │
+          ▼
+  ┌───────────────────┐
+  │  3.1              │
+  │  MediaPipe Hand   │◄── min_detection_conf=0.7
+  │  Detection        │◄── min_tracking_conf=0.7
+  │  max_num_hands=2  │◄── model_complexity=1
+  └──────────┬────────┘
+             │
+             │ hand_landmarks (21 pts × 3 coords × up to 2 hands)
+             │ handedness (Left / Right label per hand)
+             │
+     ┌───────┴──────────────────┐
+     │                          │
+     ▼                          ▼
+  ┌──────────────────┐   ┌─────────────────────────────┐
+  │  3.2             │   │  3.3                        │
+  │  FEATURE         │   │  FINGER COUNTING            │
+  │  EXTRACTION      │   │                             │
+  │                  │   │  palm_scale = ||lm9-lm0||   │
+  │  Subtract wrist  │   │  3-cue majority vote        │
+  │  Scale by palm   │   │  per finger                 │
+  │  Concat 2 hands  │   │  Thumb: lateral projection  │
+  │  → 126-dim vec   │   │  → total fingers (0–10)     │
+  └──────────┬───────┘   └──────────────┬──────────────┘
+             │                          │
+             ▼                          ▼
+  ┌──────────────────┐         ┌────────────────────┐
+  │  3.4             │         │  D2: gesture       │
+  │  ML CLASSIFIER   │◄────────│  model .pkl        │
+  │                  │         │  (SVM pipeline)    │
+  │  StandardScaler  │         └────────────────────┘
+  │  → SVC RBF       │
+  │  → predict_proba │
+  │  → label + conf  │
+  └──────────┬───────┘
+             │
+             │ conf ≥ 0.75?
+             │         |
+            YES        NO
+             │          └──► 3.5 RULE-BASED FALLBACK
+             │               (shape detectors + palm zone)
+             │                          │
+             └──────────────────────────┘
+                          │
+                          ▼
+                  (gesture, confidence)
+                  to Safety Layer (4.0)
+
+
+  DFD Level 2 — Face Authentication (Process 2.0) Expanded
+  ──────────────────────────────────────────────────────────
+
+  Enhanced frame
+          │
+          ▼
+  ┌───────────────────┐
+  │  2.1              │
+  │  QUALITY GATE     │
+  │                   │
+  │  brightness ≥ 30  │──FAIL──► Return (no-op, not a failure)
+  │  sharpness ≥ 50   │
+  └──────────┬────────┘
+             │ PASS
+             ▼
+  ┌───────────────────┐
+  │  2.2              │
+  │  HOG FACE         │
+  │  DETECTION        │◄── SCALE = 0.6
+  │                   │
+  │  face_locations() │
+  └──────────┬────────┘
+             │
+             │ face location boxes
+             ▼
+  ┌───────────────────┐
+  │  2.3              │
+  │  FACE ENCODING    │◄── num_jitters=2
+  │                   │
+  │  128-dim ResNet   │
+  │  embedding        │
+  └──────────┬────────┘
+             │
+             ▼
+  ┌───────────────────┐      ┌─────────────────────────┐
+  │  2.4              │◄─────│  D3: face encodings     │
+  │  COMPARISON       │      │  faces/*_encoding.pkl   │
+  │                   │      │  (list of 128-dim vecs) │
+  │  face_distance()  │      └─────────────────────────┘
+  │  vs all known enc │
+  │  min dist ≤ 0.5?  │
+  └──────────┬────────┘
+             │
+        ┌────┴────┐
+       YES        NO
+        │          │
+        ▼          ▼
+  [Update        [consecutive
+   last_seen_    failures++]
+   time, conf]
+        │
+        ▼
+  _auth_result = True
+  Update current_user
+
+
+--------------------------------------------------------------------------------
+8.7.1  CLASS DIAGRAM
+--------------------------------------------------------------------------------
+
+  The Class Diagram shows the six main classes of the GestureOS system, their
+  attributes, methods, and inter-class relationships. ConfigManager sits at the
+  centre of the dependency graph as it is used by all other classes; it manages
+  user profiles, gesture-to-action mappings, and system settings, persisting
+  everything to a JSON file with hot-path caching for performance-critical
+  attributes. GestureController is the largest and most complex class,
+  containing the MediaPipe hand detection pipeline, the palm-scale finger
+  counting algorithm, the ML and rule-based gesture classifiers, the
+  hold-to-confirm and danger hold timer logic, the action executor, and the
+  OpenCV camera loop. FaceAuthenticator handles all identity-related
+  operations: multi-angle CNN registration, CLAHE-enhanced HOG live detection,
+  frame quality gating, and non-blocking background re-authentication with the
+  4-second wall-clock timeout. ActivityLogger provides thread-safe timestamped
+  event logging. ScreenRecorder manages background screen capture. GestureTrainer
+  encapsulates the SVM training pipeline and model persistence. The
+  GestureControlGUI class (from gui_app.py) creates and owns instances of all
+  other classes, acting as the composition root for the application.
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │                      ConfigManager                         │
+  ├─────────────────────────────────────────────────────────────┤
+  │ - config_file: str                                          │
+  │ - config: dict                                              │
+  │ - _cooldown: float                                          │
+  │ - _stability: int                                           │
+  │ - _tolerance: float                                         │
+  ├─────────────────────────────────────────────────────────────┤
+  │ + get_all_users(): list                                     │
+  │ + get_user_info(username): dict                             │
+  │ + add_user(username, path): bool                            │
+  │ + remove_user(username): bool                               │
+  │ + set_current_user(username): bool                          │
+  │ + get_gesture_mapping(gesture): str                         │
+  │ + set_gesture_mapping(gesture, action): void                │
+  │ + get_action_command(action): dict                          │
+  │ + get_setting(key): any                                     │
+  │ + set_setting(key, value): void                             │
+  │ + save_config(): bool                                       │
+  └─────────────────────────────────────────────────────────────┘
+           ▲                    ▲                    ▲
+           │uses                │uses                │uses
+           │                    │                    │
+  ┌────────┴────────┐  ┌────────┴─────────┐  ┌──────┴──────────────────┐
+  │ FaceAuthenticator│  │ GestureController│  │  GestureTrainer         │
+  ├──────────────────┤  ├──────────────────┤  ├─────────────────────────┤
+  │ SCALE: float=0.6│  │ HOLD_DURATION    │  │ MODEL_DIR: str          │
+  │ FACE_TIMEOUT:4.0│  │   =0.4           │  ├─────────────────────────┤
+  │ - known_faces   │  │ INSTANT_CONF=0.92│  │ + train(username,       │
+  │ - current_user  │  │ NORMAL_CONF=0.75 │  │    csv_path):(bool,str) │
+  │ - last_confidence│  │ _DANGER_HOLD=5.0 │  │ + load_model(username)  │
+  │ - last_seen_time│  │ - config_manager │  │    :dict|None           │
+  │ - _auth_lock    │  │ - authenticator  │  └─────────────────────────┘
+  │ - _auth_result  │  │ - logger         │
+  │ - _auth_running │  │ - recorder       │
+  ├──────────────────┤  │ - hands (MP)     │
+  │+register_new_user│  │ - _gesture_model │
+  │+register_multi_  │  │ - hold_gesture   │
+  │  angle()        │  │ - _danger_hold_  │
+  │+_authenticate_  │  │   start          │
+  │  frame()        │  │ - _shutdown_     │
+  │+continuous_auth()│  │   active         │
+  │+_bg_auth()      │  ├──────────────────┤
+  └──────────────────┘  │+_fingers_up()   │
+           │             │+_ml_detect()    │
+           │uses         │+_rule_detect()  │
+           │             │+detect_gesture()│
+  ┌────────┴─────────┐   │+execute_action()│
+  │  ActivityLogger  │   │+draw_ui()       │
+  ├──────────────────┤   │+start()         │
+  │ - log_file: str  │   └────────┬────────┘
+  │ - enabled: bool  │            │uses
+  │ - _lock: Lock    │            │
+  ├──────────────────┤   ┌────────┴────────┐
+  │+ log()           │   │ ScreenRecorder  │
+  │+ log_auth_success│   ├──────────────────┤
+  │+ log_auth_failure│   │ FPS: int = 10    │
+  │+ log_gesture_    │   │ OUTPUT_DIR: str  │
+  │   action()       │   │ - _running: bool │
+  │+ log_blocked_    │   │ - _lock: Lock    │
+  │   action()       │   │ - current_file   │
+  │+ log_session_    │   ├──────────────────┤
+  │   start/end()    │   │+ start()         │
+  │+ get_recent_logs │   │+ stop()          │
+  └──────────────────┘   │+ toggle()        │
+                         │+ is_recording()  │
+                         └──────────────────┘
+
+  Relationships:
+  GestureController  ──uses──►  FaceAuthenticator  (1 to 1)
+  GestureController  ──uses──►  ConfigManager      (1 to 1)
+  GestureController  ──uses──►  ActivityLogger     (1 to 1)
+  GestureController  ──uses──►  ScreenRecorder     (1 to 1)
+  GestureController  ──uses──►  GestureTrainer     (calls load_model)
+  FaceAuthenticator  ──uses──►  ConfigManager      (1 to 1)
+  FaceAuthenticator  ──uses──►  ActivityLogger     (1 to 1)
+  GestureControlGUI  ──creates──► GestureController (1 to 1 per session)
+  GestureControlGUI  ──creates──► FaceAuthenticator (1 to 1)
+  GestureControlGUI  ──creates──► ConfigManager     (1 to 1)
+  GestureControlGUI  ──creates──► ActivityLogger    (1 to 1)
+  GestureControlGUI  ──creates──► ScreenRecorder    (1 to 1)
+
+
+--------------------------------------------------------------------------------
+8.7.2  USE CASE DIAGRAM
+--------------------------------------------------------------------------------
+
+  The Use Case Diagram identifies three distinct actors and sixteen use cases
+  that describe all functional interactions with the GestureOS system. The
+  Registered User (an authenticated person with a stored face encoding) is the
+  primary actor and can perform all gesture-based actions after passing face
+  authentication. The Unregistered User represents anyone not in the system;
+  their only interaction is UC9 (Attempt Gesture), which the system blocks and
+  logs without executing any action. The Admin/Owner actor has local access to
+  the GUI and is responsible for user management (register, delete), gesture
+  remapping, settings tuning, and ML model training. Key relationships include
+  UC2 (Control PC) which includes UC1 (Authenticate) — meaning gesture control
+  is impossible without prior face authentication — and UC8 (Shutdown/Restart)
+  which extends UC2 with additional safety guards. UC15 (Train Model) includes
+  UC14 (Collect Data) as a prerequisite, reflecting the two-step training
+  workflow enforced by the system.
+
+  ACTORS:
+  ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
+  │  Registered User │  │ Unregistered User│  │  Admin / Owner   │
+  │  (authenticated) │  │ (not in system)  │  │  (local access)  │
+  └────────┬─────────┘  └────────┬─────────┘  └────────┬─────────┘
+           │                     │                      │
+           │         ┌───────────────────────────────────────────┐
+           │         │           GestureOS System                │
+           │         │                                           │
+           ├────────►│  UC1: Authenticate via Face               │
+           │         │       <<extend>> UC2                      │
+           │         │                                           │
+           ├────────►│  UC2: Control PC via Gestures             │
+           │         │       <<include>> UC3                     │
+           │         │       <<include>> UC4                     │
+           │         │                                           │
+           ├────────►│  UC3: Adjust Volume / Media               │
+           ├────────►│  UC4: Navigate / Scroll                   │
+           ├────────►│  UC5: Adjust Brightness                   │
+           ├────────►│  UC6: Take Screenshot                     │
+           ├────────►│  UC7: Toggle Screen Recording             │
+           ├────────►│  UC8: Shutdown / Restart PC               │
+           │         │       <<extend>> Safety Guards            │
+           │         │                                           │
+  Unregist.├────────►│  UC9: Attempt Gesture (BLOCKED)           │
+           │         │                                           │
+  Admin    ├────────►│  UC10: Register New User                  │
+           ├────────►│  UC11: Delete User                        │
+           ├────────►│  UC12: Configure Gesture Mappings         │
+           ├────────►│  UC13: Tune System Settings               │
+           ├────────►│  UC14: Collect Gesture Training Data      │
+           ├────────►│  UC15: Train ML Gesture Model             │
+           └────────►│  UC16: View / Clear Activity Logs         │
+                     │                                           │
+                     └───────────────────────────────────────────┘
+
+  Relationships:
+  UC2 <<include>> UC1      (must be authenticated to control)
+  UC8 <<extend>>  UC2      (shutdown is a special gesture action)
+  UC15 <<include>> UC14    (must collect data before training)
+
+
+--------------------------------------------------------------------------------
+8.7.3  SEQUENCE DIAGRAMS
+--------------------------------------------------------------------------------
+
+  Three sequence diagrams are provided to capture the most important
+  time-ordered interactions between objects in the system. The Authentication
+  Sequence shows the message flow from the user clicking Start Session through
+  the GUI creating a GestureController, the controller opening the camera,
+  spawning parallel auth workers every 0.35 seconds, and the FaceAuthenticator
+  performing HOG detection, ResNet encoding, and distance comparison until a
+  registered face is confirmed — at which point the welcome screen is shown and
+  the gesture worker thread is started. The Gesture-to-Action Sequence traces
+  a single gesture (three fingers raised) from the raw camera frame through
+  MediaPipe detection, SVM classification, three-frame stability buffering,
+  hold-timer confirmation, action execution via pyautogui, and final logging.
+  The Face Absence Sequence demonstrates the security mechanism: as the user
+  leaves the frame, the background auth thread increments failure counts, a
+  visual warning appears after one second of absence, and after four seconds
+  the timeout logic sets auth_result to False, causing the gesture worker to
+  stop the session and the GUI to reset to idle state.
+
+8.7.3.1  Authentication Sequence
+──────────────────────────────────
+
+  User        GUI        GestureController    FaceAuthenticator    OS/Camera
+   |           |                |                    |                |
+   |──Start────►|               |                    |                |
+   |  Session  |──Create───────►|                    |                |
+   |           |  Controller    |──Open Camera───────────────────────►|
+   |           |                |                    |  frames        |
+   |           |                |◄───────────────────────────────────|
+   |           |                |──flip + show────────────────────────|
+   |           |                |                    |                |
+   |           |  (every 0.35s) |                    |                |
+   |           |                |──spawn auth────────►|               |
+   |           |                |   worker            |──HOG detect───|
+   |           |                |                    |  CLAHE preproc |
+   |           |                |                    |──ResNet encode─|
+   |           |                |                    |──compare encs──|
+   |           |                |                    |                |
+   |           |                |◄──(success, user,──|               |
+   |           |                |    confidence,locs)|                |
+   |           |                |                    |                |
+   |           |                |──set current_user──►|               |
+   |           |                |──set last_seen_time►|               |
+   |           |                |──log_auth_success──►|               |
+   |           |                |──load ML model──────|               |
+   |           |                |                    |                |
+   |           |                |──show WELCOME screen───────────────►|
+   |           |                |   (800ms)           |                |
+   |           |                |                    |                |
+   |           |                |──start gesture_worker_thread()      |
+   |           |                |   (Phase 2 begins)  |                |
+
+
+8.7.3.2  Gesture-to-Action Sequence
+─────────────────────────────────────
+
+  User      Camera    GestureWorker    FaceAuthenticator   ActionExecutor    OS
+   |          |             |                 |                  |            |
+   |──raise───►|            |                 |                  |            |
+   |  3 fingers|──frame────►|                 |                  |            |
+   |           |            |──continuous_auth►|                 |            |
+   |           |            |◄──True (cached)─|                 |            |
+   |           |            |                 |                  |            |
+   |           |            |──MediaPipe detect                  |            |
+   |           |            |──extract 126-dim features          |            |
+   |           |            |──SVM predict_proba                 |            |
+   |           |            |  → "count_3", conf=0.87            |            |
+   |           |            |                 |                  |            |
+   |           |  (frame 1) |──update_history("count_3")        |            |
+   |           |  (frame 2) |──update_history("count_3")        |            |
+   |           |  (frame 3) |──stable_gesture()="count_3"       |            |
+   |           |            |                 |                  |            |
+   |           |            |──update_hold("count_3")            |            |
+   |           |  (0.4s...) |   hold_start_time set              |            |
+   |           |            |   hold_time ≥ 0.4s                 |            |
+   |           |            |──execute_action("count_3",         |            |
+   |           |            |   is_authorized=True, conf=0.87)──►|            |
+   |           |            |                 |   get_mapping("count_3")      |
+   |           |            |                 |   = "mute"        |            |
+   |           |            |                 |   get_command("mute")         |
+   |           |            |                 |   = {key: volumemute}         |
+   |           |            |                 |──pyautogui.press("volumemute")►|
+   |           |            |                 |                  |──MUTE KEY──►|
+   |           |            |                 |──log_gesture_action            |
+   |           |            |                 |──last_action_time = now        |
+
+
+8.7.3.3  Face Absence → Session End Sequence
+──────────────────────────────────────────────
+
+  User      Camera    GestureWorker    FaceAuthenticator    GUI
+   |          |             |                 |              |
+   |──leaves──►|            |                 |              |
+   |  frame    |──frame────►|                 |              |
+   |  (no face)|            |──continuous_auth►|             |
+   |           |            |  (every frame)  |              |
+   |           |            |  last_seen=T    |──bg_auth────►|
+   |           |            |  T+0s: ok       |  HOG: no face|
+   |           |            |  T+1s: ok       |  consecutive_|
+   |           |            |  T+2s: warning  |  failures++  |
+   |           |            |   (orange box   |              |
+   |           |            |    on overlay)  |              |
+   |           |            |  T+4s:          |              |
+   |           |            |  now-last>4s────►              |
+   |           |            |  _auth_result=F |              |
+   |           |            |◄──False─────────|              |
+   |           |            |──_state["stop"]=True           |
+   |           |            |──cam.release()  |              |
+   |           |            |──destroyAllWindows()            |
+   |           |            |──log_session_end│              |
+   |           |            |─────────────────────────────── ►|
+   |           |            |                 |  _on_system_stopped()
+   |           |            |                 |  GUI resets to IDLE
+
+
+--------------------------------------------------------------------------------
+8.7.4  ACTIVITY DIAGRAM
+--------------------------------------------------------------------------------
+
+  The Activity Diagram models the complete behaviour of a GestureOS session
+  as a flow of activities with decision nodes, parallel regions, and loops.
+  Starting from application launch, the diagram passes through dependency
+  checking and GUI initialisation before entering the session lifecycle. The
+  Authentication Activity is shown as a sub-region with its own read-frame
+  loop, periodic auth worker spawning, and timeout decision. Once face
+  recognition succeeds, the Gesture Control Activity takes over as a 25 FPS
+  loop containing all the core processing steps: background re-authentication,
+  CLAHE preprocessing, MediaPipe hand detection, ghost-frame temporal
+  smoothing, ML and rule-based gesture classification, stability and hold
+  checking, action execution, logging, and cooldown. The diagram clearly shows
+  all exit paths — Q key press, face timeout, and stop signal — all of which
+  converge at the cleanup activity before returning the system to idle. This
+  diagram serves as the primary behavioural specification for the gesture
+  control engine.
+
+  ●  START
+  │
+  ▼
+  [Launch Application & Check Dependencies]
+  │
+  ▼
+  [Open GUI]
+  │
+  ▼
+  [User clicks Start Session] ◄──────────────────────────────────┐
+  │                                                               │
+  ▼                                                               │
+  [Open Webcam] ──FAIL──► Show error ──► Return to GUI           │
+  │                                                               │
+  ▼                                                               │
+  ┌─────────────────────────────────────────────┐                │
+  │  AUTHENTICATION ACTIVITY                    │                │
+  │                                             │                │
+  │  ┌──────────────┐                           │                │
+  │  │ Read frame   │ ◄────────────────────┐    │                │
+  │  └──────┬───────┘                      │    │                │
+  │         │ Flip + display               │    │                │
+  │         ▼                              │    │                │
+  │  [Spawn auth worker (0.35s interval)]  │    │                │
+  │         │                              │    │                │
+  │         ▼                              │    │                │
+  │  [Face recognised?]                    │    │                │
+  │    NO ──► [Timeout?] ──YES──► FAIL     │    │                │
+  │     │        │                         │    │                │
+  │     │       NO ──────────────────────── ┘    │                │
+  │    YES                                  │    │                │
+  │     │                                   │    │                │
+  └─────┼───────────────────────────────────┘    │                │
+        │                                                          │
+        ▼                                                          │
+  ┌─────────────────────────────────────────────────────────┐     │
+  │  GESTURE CONTROL ACTIVITY (25 FPS loop)                 │     │
+  │                                                         │     │
+  │  ┌───────────────┐                                      │     │
+  │  │  Read frame   │ ◄──────────────────────────────┐     │     │
+  │  └───────┬───────┘                                │     │     │
+  │          │                                        │     │     │
+  │          ▼                                        │     │     │
+  │  [Background auth check (every 2s)]               │     │     │
+  │          │                                        │     │     │
+  │          ▼                                        │     │     │
+  │  [auth_ok?] ──NO──► Log failure ──► STOP SESSION  │     │     │
+  │          │                                        │     │     │
+  │         YES                                       │     │     │
+  │          │                                        │     │     │
+  │          ▼                                        │     │     │
+  │  [CLAHE preprocess + MediaPipe detect]            │     │     │
+  │          │                                        │     │     │
+  │          ▼                                        │     │     │
+  │  [Hand detected?]                                 │     │     │
+  │    NO ──► [Ghost frames ≤ 3?]                     │     │     │
+  │     │       YES: hold last gesture                │     │     │
+  │     │       NO:  reset, clear history ────────────┘     │     │
+  │    YES                                                   │     │
+  │     │                                                    │     │
+  │     ▼                                                    │     │
+  │  [ML detect] ──conf < 0.75──► [Rule-based detect]       │     │
+  │          │                           │                   │     │
+  │          └───────────────────────────┘                   │     │
+  │                          │                               │     │
+  │                          ▼                               │     │
+  │             [Stable gesture (3 frames)?]                 │     │
+  │              NO ──────────────────────────────────────── ┘     │
+  │              YES                                                │
+  │               │                                                 │
+  │               ▼                                                 │
+  │          [Hold ≥ 0.4s?] ──NO ──────────────────────────────── ┘│
+  │               │                                                  │
+  │              YES                                                 │
+  │               │                                                  │
+  │               ▼                                                  │
+  │          [execute_action()]                                      │
+  │               │                                                  │
+  │               ▼                                                  │
+  │          [Log + Cooldown 1s] ─────────────────────────────────── ┘
+  │                                                         │
+  │  [Q pressed / stop signal] ──► EXIT LOOP                │
+  └─────────────────────────────────────────────────────────┘
+        │
+        ▼
+  [Cleanup: cam.release(), destroyAllWindows(), log_session_end]
+        │
+        ▼
+  [GUI resets to IDLE]
+        │
+        ▼
+  ⊙  END
+
+
+--------------------------------------------------------------------------------
+8.7.5  STATE CHART DIAGRAM
+--------------------------------------------------------------------------------
+
+  The State Chart Diagram models the discrete states of the GestureController
+  object and the valid transitions between them. The system starts in the IDLE
+  state and transitions to AUTHENTICATING when the user clicks Start Session,
+  during which the camera opens and auth workers are spawned. A successful
+  face match transitions the system to GESTURE CONTROL (ACTIVE), the primary
+  operational state where gesture detection, action execution, and background
+  re-authentication all run concurrently. From this state, holding the
+  count_10 gesture for five seconds with sufficient confidence triggers a
+  transition to SHUTDOWN COUNTDOWN, a three-second timed state that can be
+  cancelled by dropping the hand (returning to GESTURE CONTROL) or completes
+  to invoke a system shutdown. Any exit condition — Q key, face absent for
+  four seconds, or manual stop — transitions through the CLEANUP state
+  (releasing the camera and writing the final log entry) and back to IDLE.
+  Sub-states within GESTURE CONTROL are also shown, including DETECTING,
+  HOLDING, FIRING, COOLDOWN, FACE_WARNING, and DANGER_HOLDING, providing
+  complete coverage of the system's runtime behaviour.
+
+  States and transitions for the GestureController session:
+
+                         ┌─────────────────┐
+                         │                 │
+                  ●─────►│     IDLE        │
+                         │                 │◄────────────────────────────┐
+                         └────────┬────────┘                             │
+                                  │                                       │
+                         User clicks "Start Session"                      │
+                                  │                                       │
+                         ┌────────▼────────┐                             │
+                         │                 │                             │
+                         │  AUTHENTICATING │──── Q pressed ──────────────┤
+                         │                 │                             │
+                         │  entry/ open    │──── Timeout (30s) ──────────┤
+                         │  camera,        │                             │
+                         │  spawn auth     │                             │
+                         │  workers        │                             │
+                         └────────┬────────┘                             │
+                                  │                                       │
+                         Face recognised                                  │
+                         (confidence ≥ threshold)                         │
+                                  │                                       │
+                         ┌────────▼────────────────────────────────┐     │
+                         │                                         │     │
+                         │      GESTURE CONTROL (ACTIVE)           │     │
+                         │                                         │     │
+                         │  entry/ start gesture_worker thread     │     │
+                         │         start auth background thread    │     │
+                         │                                         │     │
+                         │  do/ detect gestures at 25 FPS          │     │
+                         │     re-auth every 2 seconds             │     │
+                         │     execute actions on stable gestures  │     │
+                         │                                         │──── Q pressed ──────────────────────┐
+                         └───┬─────────────────────────────────────┘     │                              │
+                             │                                            │                              │
+           ┌─────────────────┤                                            │                              │
+           │                 │                                            │                              │
+    Face absent > 4s    count_10 held ≥ 5s                               │                              │
+           │             (confidence ≥ 75%)                               │                              │
+           │                 │                                            │                              │
+           │        ┌────────▼────────┐                                  │                              │
+           │        │                 │                                   │                              │
+           │        │  SHUTDOWN       │                                   │                              │
+           │        │  COUNTDOWN      │                                   │                              │
+           │        │                 │                                   │                              │
+           │        │  do/ 3-second   │                                   │                              │
+           │        │  countdown with │                                   │                              │
+           │        │  visual overlay │                                   │                              │
+           │        │                 │                                   │                              │
+           │        └──┬──────────────┘                                  │                              │
+           │           │         │                                        │                              │
+           │    Hands  │    All 3 seconds elapsed                         │                              │
+           │    dropped│         │                                        │                              │
+           │           │  ┌──────▼──────────┐                            │                              │
+           │           │  │   OS SHUTDOWN   │                            │                              │
+           │           │  │  (subprocess)   │                            │                              │
+           │           │  └─────────────────┘                            │                              │
+           │           │                                                  │                              │
+           │    returns to GESTURE CONTROL                                │                              │
+           │                                                              │                              │
+           │                                                              │                              │
+           └──────────────────────────────────────────────────────────── ┤                              │
+                                                                          │                              │
+                              ┌───────────────────────────────────────── ┘                              │
+                              │                                                                          │
+                     ┌────────▼────────┐                                                                │
+                     │                 │                                                                │
+                     │    CLEANUP      │                                                                │
+                     │                 │◄───────────────────────────────────────────────────────────── ┘
+                     │  do/ cam.release│
+                     │  destroyWindows │
+                     │  log_session_end│
+                     └────────┬────────┘
+                              │
+                              │ cleanup complete
+                              ▼
+                           [IDLE]
+
+
+  Sub-states of GESTURE CONTROL:
+
+  GESTURE CONTROL
+  ├── DETECTING        (MediaPipe running, no stable gesture yet)
+  ├── HOLDING          (stable gesture, hold timer counting up)
+  ├── FIRING           (hold complete, execute_action called)
+  ├── COOLDOWN         (1s cooldown after action)
+  ├── FACE_WARNING     (face absent > 1s, orange overlay shown)
+  └── DANGER_HOLDING   (count_10, 5s danger timer counting)
+
+
+
+--------------------------------------------------------------------------------
+8.7.6  COMPONENT DIAGRAM
+--------------------------------------------------------------------------------
+
+  The Component Diagram illustrates the modular architecture of GestureOS
+  as a layered set of software components and their dependencies. The
+  Presentation Layer (gui_app.py) sits at the top and provides the five-page
+  user interface; it depends on all layers below it but no layer depends on it,
+  making it independently replaceable. The Core Engine (gesture_control.py)
+  forms the central processing layer and houses three internal sub-components:
+  MediaPipe Hand Detection, the ML Classifier (SVM via scikit-learn), and the
+  Rule-Based Detector. Below the core engine, four parallel service layers
+  operate independently: the Identity Layer (face_auth.py) handles all
+  face-related operations; the Config Layer (config_manager.py) manages
+  persistent settings; the Log Layer (logger.py) handles activity recording;
+  and the ML Training component (gesture_trainer.py) manages model lifecycle.
+  The Recording Layer (screen_recorder.py) provides screen capture. All
+  components interface with three external systems at the bottom: the Windows
+  OS (for keyboard, scroll, and system commands), the Webcam Device (for video
+  capture), and the File System (for all persistent storage). This layered
+  structure ensures that changes to one layer have minimal impact on others.
+
+  ┌─────────────────────────────────────────────────────────────────────┐
+  │                    GestureOS Application                            │
+  │                                                                     │
+  │  ┌──────────────────────────────────────────────────────────────┐  │
+  │  │  Presentation Layer (gui_app.py)                             │  │
+  │  │  ┌────────────┐ ┌──────────┐ ┌──────────┐ ┌─────────────┐  │  │
+  │  │  │ Control    │ │  Users   │ │ Gestures │ │  Settings   │  │  │
+  │  │  │ Page       │ │  Page    │ │  Page    │ │  + Logs     │  │  │
+  │  │  └─────┬──────┘ └────┬─────┘ └────┬─────┘ └──────┬──────┘  │  │
+  │  └────────┼─────────────┼────────────┼──────────────┼──────────┘  │
+  │           │             │            │              │               │
+  │  ┌────────▼─────────────▼────────────▼──────────────▼──────────┐  │
+  │  │  Core Engine (gesture_control.py)                            │  │
+  │  │  GestureController                                           │  │
+  │  │  ┌─────────────┐  ┌──────────────┐  ┌────────────────────┐  │  │
+  │  │  │ MediaPipe   │  │ ML Classifier │  │  Rule-Based        │  │  │
+  │  │  │ Hand        │  │ (SVM via      │  │  Detector          │  │  │
+  │  │  │ Detection   │  │  sklearn)     │  │  (_fingers_up etc) │  │  │
+  │  │  └─────────────┘  └──────────────┘  └────────────────────┘  │  │
+  │  └────────┬─────────────────────────────────────────────────────┘  │
+  │           │                                                          │
+  │  ┌────────▼──────────┐  ┌────────────────────┐  ┌──────────────┐  │
+  │  │  Identity Layer   │  │  Config Layer       │  │  Log Layer   │  │
+  │  │  (face_auth.py)   │  │  (config_manager.py)│  │  (logger.py) │  │
+  │  │  FaceAuthenticator│  │  ConfigManager      │  │  ActivityLog │  │
+  │  │  HOG + ResNet     │  │  system_config.json │  │  activity_   │  │
+  │  └────────┬──────────┘  └────────────────────┘  │  log.txt     │  │
+  │           │                                       └──────────────┘  │
+  │  ┌────────▼──────────┐  ┌────────────────────┐                     │
+  │  │  ML Training      │  │  Recording Layer    │                     │
+  │  │  (gesture_trainer │  │  (screen_recorder   │                     │
+  │  │   .py)            │  │   .py)              │                     │
+  │  │  GestureTrainer   │  │  ScreenRecorder     │                     │
+  │  │  faces/*.pkl      │  │  recordings/*.mp4   │                     │
+  │  └───────────────────┘  └────────────────────┘                     │
+  │                                                                     │
+  └─────────────────────────────────────────────────────────────────────┘
+           │                         │                    │
+           ▼                         ▼                    ▼
+  ┌────────────────┐      ┌──────────────────┐  ┌──────────────────┐
+  │  Windows OS    │      │  Webcam Device   │  │  File System     │
+  │  (pyautogui,   │      │  (OpenCV V4L2/   │  │  (faces/, logs,  │
+  │   win32api,    │      │   DirectShow)    │  │   recordings/)   │
+  │   subprocess)  │      └──────────────────┘  └──────────────────┘
+  └────────────────┘
+
+
+--------------------------------------------------------------------------------
+8.7.7  DEPLOYMENT DIAGRAM
+--------------------------------------------------------------------------------
+
+  The Deployment Diagram describes the physical and software infrastructure
+  on which GestureOS runs. The entire system is deployed on a single Windows
+  10/11 PC — there are no servers, no cloud services, no network dependencies,
+  and no external APIs. Within the PC, the Python 3.10 runtime hosts the
+  GestureOS application alongside its key library dependencies: MediaPipe
+  0.10.9 (which ships with its own pre-trained hand landmark models embedded
+  in the package), face_recognition 1.3.0 (backed by dlib's HOG detector and
+  ResNet face embedding model), scikit-learn 1.3.2 (providing the SVM
+  classifier and StandardScaler), and pyautogui with pywin32 (for OS-level
+  action dispatch). All persistent artefacts — configuration, face encodings,
+  gesture training data, ML models, the activity log, and screen recordings —
+  are stored in the local file system with no encryption, making them directly
+  accessible for inspection and backup. Two physical devices connect to the PC:
+  the USB or built-in webcam (the sole sensor input) and the monitor (which
+  receives brightness adjustment commands). This single-node, fully offline
+  architecture is a deliberate design choice that maximises privacy, eliminates
+  latency from network calls, and ensures the system works without internet
+  access.
+
+  ┌──────────────────────────────────────────────────────────────────┐
+  │              <<device>>  User PC (Windows 10/11)                 │
+  │                                                                  │
+  │  ┌────────────────────────────────────────────────────────────┐ │
+  │  │  <<execution environment>>  Python 3.10 Runtime            │ │
+  │  │                                                            │ │
+  │  │  ┌────────────────┐  ┌──────────────┐  ┌───────────────┐  │ │
+  │  │  │  GestureOS     │  │  MediaPipe   │  │  face_        │  │ │
+  │  │  │  Application   │  │  0.10.9      │  │  recognition  │  │ │
+  │  │  │  (main.py,     │  │  (hand ML    │  │  1.3.0        │  │ │
+  │  │  │   gui_app.py,  │  │   models     │  │  (dlib HOG +  │  │ │
+  │  │  │   gesture_     │  │   embedded)  │  │   ResNet)     │  │ │
+  │  │  │   control.py,  │  └──────────────┘  └───────────────┘  │ │
+  │  │  │   face_auth.py)│                                        │ │
+  │  │  └───────┬────────┘  ┌──────────────┐  ┌───────────────┐  │ │
+  │  │          │            │  scikit-learn│  │  pyautogui +  │  │ │
+  │  │          │            │  1.3.2       │  │  pywin32      │  │ │
+  │  │          │            │  (SVM model) │  │  (OS actions) │  │ │
+  │  │          │            └──────────────┘  └───────────────┘  │ │
+  │  └──────────┼────────────────────────────────────────────────┘ │
+  │             │                                                    │
+  │  ┌──────────▼─────────────────────────────────────────────────┐ │
+  │  │  <<artifact>>  Local File Storage                          │ │
+  │  │                                                            │ │
+  │  │  system_config.json   ── runtime configuration            │ │
+  │  │  faces/*.pkl          ── face encodings + ML models       │ │
+  │  │  faces/*.csv          ── gesture training data            │ │
+  │  │  activity_log.txt     ── event log                        │ │
+  │  │  recordings/*.mp4     ── screen recordings                │ │
+  │  └────────────────────────────────────────────────────────────┘ │
+  │                                                                  │
+  └──────────────────────────────┬───────────────────────────────────┘
+                                 │
+                    ┌────────────┴────────────┐
+                    │                         │
+  ┌─────────────────▼──┐           ┌──────────▼──────────────────┐
+  │  <<device>>        │           │  <<device>>                 │
+  │  USB / Built-in    │           │  Monitor Display            │
+  │  Webcam            │           │  (brightness control via    │
+  │  (640×480 @ 30fps) │           │   screen-brightness-control)│
+  └────────────────────┘           └─────────────────────────────┘
+
+  NOTE: This is a fully standalone, single-node deployment.
+  - No internet connection required
+  - No cloud services
+  - No external APIs
+  - No database server
+  - All processing on local CPU
+
+
+================================================================================
+  END OF SYSTEM DESIGN DIAGRAMS
+================================================================================

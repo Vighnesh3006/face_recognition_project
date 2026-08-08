@@ -1,0 +1,172 @@
+{
+    "users": {
+        "vighnesh": {
+            "face_encoding": "faces/vighnesh_encoding.pkl",
+            "created_at": "2026-03-18T11:09:21.924418",
+            "last_login": "2026-06-05T16:10:36.350489",
+            "total_sessions": 89,
+            "gesture_model": "faces\\vighnesh_model.pkl"
+        },
+        "Aryan": {
+            "face_encoding": "faces/Aryan_encoding.pkl",
+            "gesture_model": null,
+            "created_at": "2026-05-09T13:15:17.023504",
+            "last_login": "2026-06-05T16:10:33.319040",
+            "total_sessions": 19
+        },
+        "Atharv": {
+            "face_encoding": "faces/Atharv_encoding.pkl",
+            "gesture_model": null,
+            "created_at": "2026-05-09T13:19:33.601353",
+            "last_login": "2026-05-28T23:52:35.196050",
+            "total_sessions": 15
+        }
+    },
+    "current_user": "vighnesh",
+    "gesture_mappings": {
+        "count_1": "volumeup",
+        "count_2": "volumedown",
+        "count_3": "mute",
+        "count_4": "playpause",
+        "fist": "playpause",
+        "count_5_center": "screenshot",
+        "count_5_left": "swipe_left",
+        "count_5_right": "swipe_right",
+        "count_5_up": "scroll_up",
+        "count_5_down": "scroll_down",
+        "thumbs_up": "brightness_up",
+        "thumbs_down": "brightness_down",
+        "ok_sign": "screen_record",
+        "peace_sign": "screenshot",
+        "count_6": "escape",
+        "count_7": "task_view",
+        "count_8": "lock_screen",
+        "count_9": "desktop",
+        "count_10": "shutdown"
+    },
+    "action_commands": {
+        "playpause": {
+            "type": "key",
+            "value": "playpause"
+        },
+        "volumeup": {
+            "type": "key",
+            "value": "volumeup"
+        },
+        "volumedown": {
+            "type": "key",
+            "value": "volumedown"
+        },
+        "prev_track": {
+            "type": "key",
+            "value": "prevtrack"
+        },
+        "next_track": {
+            "type": "key",
+            "value": "nexttrack"
+        },
+        "screenshot": {
+            "type": "hotkey",
+            "value": [
+                "win",
+                "prtsc"
+            ]
+        },
+        "brightness_up": {
+            "type": "custom",
+            "value": "brightness_up"
+        },
+        "brightness_down": {
+            "type": "custom",
+            "value": "brightness_down"
+        },
+        "mute": {
+            "type": "key",
+            "value": "volumemute"
+        },
+        "task_view": {
+            "type": "hotkey",
+            "value": [
+                "win",
+                "tab"
+            ]
+        },
+        "close_window": {
+            "type": "hotkey",
+            "value": [
+                "alt",
+                "f4"
+            ]
+        },
+        "minimize": {
+            "type": "hotkey",
+            "value": [
+                "win",
+                "down"
+            ]
+        },
+        "maximize": {
+            "type": "hotkey",
+            "value": [
+                "win",
+                "up"
+            ]
+        },
+        "desktop": {
+            "type": "hotkey",
+            "value": [
+                "win",
+                "d"
+            ]
+        },
+        "lock_screen": {
+            "type": "hotkey",
+            "value": [
+                "win",
+                "l"
+            ]
+        },
+        "swipe_left": {
+            "type": "custom",
+            "value": "swipe_left"
+        },
+        "swipe_right": {
+            "type": "custom",
+            "value": "swipe_right"
+        },
+        "scroll_up": {
+            "type": "custom",
+            "value": "scroll_up"
+        },
+        "scroll_down": {
+            "type": "custom",
+            "value": "scroll_down"
+        },
+        "screen_record": {
+            "type": "custom",
+            "value": "screen_record"
+        },
+        "escape": {
+            "type": "key",
+            "value": "escape"
+        },
+        "shutdown": {
+            "type": "custom",
+            "value": "shutdown"
+        },
+        "restart": {
+            "type": "custom",
+            "value": "restart"
+        }
+    },
+    "settings": {
+        "cooldown": 1.0,
+        "gesture_stability": 3,
+        "face_tolerance": 0.5,
+        "auth_check_frequency": 3,
+        "max_auth_failures": 5,
+        "enable_logging": true,
+        "detection_confidence": 0.7,
+        "tracking_confidence": 0.7
+    }
+}
